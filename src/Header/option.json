@@ -1,0 +1,190 @@
+[
+    {
+        "id": "1",
+        "menu": "BirthdayGift",
+        "sub-Menu": {
+            "GiftType": [
+                "Name Gift",
+                "  Photo Gift",
+                " Wooden Gift",
+                " Night Lamp",
+                " Wall Decor",
+                " Neon Sign",
+                " Photo Frames",
+                " Table Gift"
+            ],
+            "Woman": [
+                "Wife",
+                "Girlfriend",
+                "Sister",
+                " Daughter",
+                "Friend",
+                "  Grandmother",
+                " Mother",
+                "Her"
+            ],
+            "Men": [
+                "Husband",
+                "Boyfriend",
+                " Father",
+                "Brother",
+                "Son",
+                " Friend",
+                " Grandfather",
+                "Boy",
+                "Him"
+            ]
+        }
+    },
+    {
+        "id": "2",
+        "menu": "Gift By Category",
+        "sub-Menu": {
+            "category-1": [
+                "Alphabet Wooden Name Board",
+                "Shadow Box",
+                " Acrylic Led Lamp",
+                "  Wall Hanging",
+                "Flip Name",
+                "Rotating Lamps",
+                "Custom Neon Sign",
+                "Clocks"
+            ],
+            "category-2": [
+                "Personalized Table Gifts",
+                "Home Name Plate",
+                "Customized Keychains",
+                "Customized Mugs",
+                "Cushion",
+                "Religious & Spiritual Gifts",
+                "Personalized Key Holder",
+                "Wooden Frames",
+                "Handmade Gifts",
+                "3D Moon Lamp",
+                "Crystal Glass Flowers Lamp",
+                "Non Customized LED Neon Sign"
+            ],
+            "category-3": [
+                "Canvas",
+                "Jewellery",
+                "Kids Acrylic Led Lamp",
+                "Engraved Photo Frame",
+                "Unusual Gifts",
+                "3d Gifts",
+                "Soft Toys",
+                "Golden Rose"
+            ],
+            "category-4": [
+                "Homemade Dog Treat/Cookies/Biscuits",
+                "MDF Wooden Craft Cutout Shapes & Patterns",
+                "Zodiac Signs Gifts",
+                "Couple T-Shirt",
+                "Wall Decoration",
+                "Unique Name Wall Decoration",
+                "Romantic Couple Neon Sign",
+                "Trending Gifts",
+                "Most Selling Gifts"
+            ]
+        }
+    },
+    {
+        "id": "3",
+        "menu": "CoupleGift",
+        "sub-Menu": {
+            "Couple Gifts Categories": [
+                "Couple Marriage Gifts",
+                "Couple Matching Gifts",
+                "Couple Customized Gifts",
+                "Couple T-Shirts",
+                "Couple Frames",
+                "Couple Gift Items",
+                "Couple Anniversary Gifts",
+                " Couple Romantic Gift"
+            ]
+        }
+    },
+    {
+        "id": "4",
+        "menu": "PersonalizedGifts",
+        "sub-Menu": {
+            "Personalized Gifts By Categories": [
+                "Personalized Wall Hanging",
+                " Personalized Clocks",
+                "Personalized Wall Decor",
+                "  Personalized Key Holder",
+                "Personalized Tea & Coffee Mugs",
+                " Personalized Cushions & Soft Toys",
+                " Personalized Wooden Engraves",
+                "Personalized Moon Lamps",
+                " Personalized Arylic Lamps",
+                "Personalized Shadow Boxs",
+                "Personalized Name Plates",
+                " Personalized Keychains",
+                "  Personalized Name Boards"
+            ],
+            "Personalized Gifts By Recipients": [
+                "Him",
+                "Her",
+                "Mom",
+                "Dad",
+                "Wife",
+                "Husband",
+                "Couple",
+                "Babies & Kids",
+                "Boyfriend",
+                "Girlfriend"
+            ]
+        }
+    },
+    {
+        "id": "5",
+        "menu": "Neon Sign",
+        "sub-Menu": {
+            "Neon Sign Categories": [
+                "Couple Led Neon Sign",
+                "Personalized Neons",
+                "Anniversary Neon Sign",
+                "Neon Light Shoe Box",
+                " Romantic Neon Sign",
+                "Neon Sign Gifts"
+            ],
+            "Recipients": [
+                "Wife",
+                "Girlfriend",
+                "Women",
+                "Men",
+                "Husband",
+                "Brother",
+                "Sister",
+                "Friend",
+                "Boyfriend",
+                "Dad",
+                "Daughter"
+            ]
+        }
+    },
+    {
+        "id": "6",
+        "menu": "Occasion Gifts",
+        "sub-Menu": {
+            "Gifts By Occasions": [
+                "Birthday Gifts",
+                "Anniversary Gifts",
+                "Housewarming Gifts",
+                "Best Wishes Gifts",
+                " Baby Shower Gifts",
+                "Valentine's Day Gifts",
+                "  Wedding Gifts"
+            ],
+            "Festivals": [
+                "Bhai Dooj",
+                "Christmas",
+                "New Year",
+                "Holi",
+                "Eid-Al-Adha",
+                "Ganesh Chaturthi",
+                "Karwa Chauth"
+            ]
+        }
+    }
+]

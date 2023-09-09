@@ -1,0 +1,175 @@
+.fullHeader {
+ 
+  background-color: #ec5459;
+ 
+}
+
+.topHeader {
+  width: 95%;
+  margin: auto;
+  padding-top: 15px;
+  display: flex;
+}
+.topHeaderLeft {
+  display: flex;
+  justify-content: space-between;
+}
+.websiteLogo {
+  color: white;
+  font-size: 25px;
+  font-weight: 600px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.topIcons {
+  display: flex;
+  justify-content: end;
+}
+
+.topIconBox {
+  display: grid;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 14px;
+  color: #fff;
+}
+.badgeColor {
+  color: #ff9212;
+}
+.contact {
+  background: #e97730;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  padding: 0 10px;
+  border-radius: 6px;
+}
+.Icon {
+  font-size: 40px;
+  color: #fff;
+}
+.signUpIcon {
+  font-size: 40px;
+  color: #fff;
+}
+
+.iconText {
+  font-size: 12px;
+}
+.callIcon {
+  font-size: 50px;
+  color: #fff;
+}
+
+.searchInput{
+  padding: 7px;
+  outline: 0;
+  min-width: 400px;
+  font-size: 14px;
+  opacity: .7;
+
+}
+
+.searchButton{
+  outline: 0;
+  padding:5px 10px 5px 10px;
+  margin-left: 2px;
+  border-width: thin;
+  border-color: #fff;
+  border-radius:2px;
+  background-color: #ff9212;
+  color: #fff;
+  font-weight: bold;
+  
+}
+
+
+.mobileViewSearch{
+  width:100%;
+  
+}
+
+.mobileViewSearchInput{
+  width: 97%;
+  padding: 5px;
+  margin: 5px;
+  outline: 0;
+}
+
+.mobileView{
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .topIconBox {
+        display: grid;
+        padding-left: 5px;
+        padding-right: 0px;
+       
+        color: #fff;
+      }
+  .contact {
+    background-color: #ec5459;
+  }
+  .callIcon {
+    font-size: 35px;
+    color: #fff;
+  }
+
+  .searchBox {
+    display: none
+  }
+  .contactDetails {
+    display: none;
+  }
+  .iconText {
+    display: none;
+  }
+  .Icon {
+    font-size: 35px;
+    color: #fff;
+  }
+
+  .signUpIcon {
+    display: none;
+  }
+  .mobileView{
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 480px) {
+    .topIconBox {
+        display: grid;
+        padding-left: 5px;
+        padding-right: 0px;
+        font-size: 14px;
+        color: #fff;
+      }
+  .contact {
+    background-color: #ec5459;
+  }
+  .callIcon {
+    font-size: 25px;
+    color: #fff;
+  }
+
+  .searchBar {
+    display: none;
+  }
+  .contactDetails {
+    display: none;
+  }
+  .iconText {
+    display: none;
+  }
+  .Icon {
+    font-size: 25px;
+    color: #fff;
+  }
+
+  .signUpIcon {
+    display: none;
+  }
+}
+

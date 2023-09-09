@@ -1,0 +1,146 @@
+.floatBoxContent {
+  background-color: #fff;
+  border-radius: 15px;
+  margin-top: -90px;
+  box-shadow: rgba(50, 50, 93, 0.1) 0 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0 8px 16px -8px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+}
+.floatBox .floatBoxContent {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.selectGiftRow {
+  margin-bottom: 20px;
+}
+
+.giftFinderText {
+  padding-left: 20px;
+  color: #ec5459;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: block;
+}
+
+.gifFinderDropdownHeading {
+  text-transform: capitalize;
+  display: block;
+  padding: 10px 0;
+  opacity: 0.6;
+}
+.giftFinderBox {
+  display: flex;
+  align-items: end;
+}
+.giftFinderButton {
+  padding: 21px;
+  background-color: #ec5459;
+  border-color: #ec5459;
+  border-radius: 0 10px 10px 0;
+  color: #fff;
+  text-transform: capitalize;
+  transition: 0.4s ease-in-out;
+  opacity: 0.8;
+}
+.giftFinderButton:hover {
+  padding: 21px;
+  background-color: #ec5459;
+  border-color: #ec5459;
+  border-radius: 0 10px 10px 0;
+  color: #fff;
+  text-transform: capitalize;
+  transition: 0.4s ease-in-out;
+  opacity: 0.8;
+}
+.Select1 {
+  border-radius: 10px 0px 0px 10px;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #cecece;
+  outline: 0 !important;
+}
+.Select2 {
+  border-radius: 0%;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #cecece;
+  outline: 0 !important;
+}
+
+.headFixedHeading {
+  font-size: 18px;
+  display: inline-block;
+  text-transform: capitalize;
+  color: #5184c7;
+  font-weight: 700;
+}
+
+.Select3 {
+  font-size: 14px;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #cecece;
+  outline: 0 !important;
+}
+.Select4 {
+  font-size: 14px;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #cecece;
+  outline: 0 !important;
+}
+
+.headFixedButton {
+  margin-top: 10px;
+  background-color: #ec5459;
+  border-color: #ec5459;
+  color: #fff;
+  text-transform: capitalize;
+  transition: 0.4s ease-in-out;
+  opacity: 0.8;
+}
+
+.headFixedButton:hover {
+  margin-top: 10px;
+  background-color: #ec5459;
+  border-color: #ec5459;
+  color: #fff;
+  text-transform: capitalize;
+  transition: 0.4s ease-in-out;
+  opacity: 0.8;
+}
+
+@media screen and (min-width: 900px) {
+  .homeSlider {
+    height: 50vh;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .HeadFixedBox {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .floatBox {
+    display: none;
+  }
+  .HeadFixedBox {
+    border-radius: 0;
+    margin: 0;
+    background: #bcd2ee;
+    padding: 10px 10px;
+  }
+  .Select3 {
+    padding: auto;
+  }
+  .Select4 {
+    padding: auto;
+  }
+}
