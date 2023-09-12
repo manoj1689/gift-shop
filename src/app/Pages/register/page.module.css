@@ -1,0 +1,69 @@
+.signUpBox{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: auto; 
+  margin-left: auto; 
+  max-width: 800px; 
+  display: grid;
+  background-color: #ec5459;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  min-height: 60vh;
+  
+
+}
+.signUpHeading{
+  padding-top:50px ;
+  text-align: center;
+  color: #fff;
+
+}
+
+.formBox{
+  max-width: 600px;
+  margin:auto;
+  display: grid;
+  color: white;
+}
+
+.formText{
+  font-family:'Times New Roman', Times, serif;
+  color: #fff
+}
+
+.inputBox{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.registerButton{
+  width: 100%;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+    text-transform: uppercase;
+    padding: 15px;
+    background: #ed7d81;
+    color: #fff;
+    outline: 0;
+    border: 1px solid #ff9212;
+    box-shadow: 0 2px 4px 0 #db923e , 0 5px 10px 0 #db923e;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 20px;
+    transition: .4s ease-in-out;
+}
+.loginLink{
+  width: 90%;
+  text-align: end;
+  color: #fff;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.loginText{
+  color: rgb(63, 83, 230);
+  padding-left: 10px;
+}

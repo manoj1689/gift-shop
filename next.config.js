@@ -1,13 +1,14 @@
+
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     reactStrictMode: true,
     experimental: {
       appDir: true,
+      serverComponentsExternalPackages:['@prisma/client','bcrypt'],
+      serverActions:true
     },
-    env: {
-      DB_URI: "mongodb://localhost:27017/next13-auth",
-      NEXTAUTH_SECRET: "manojKaushik",
-    },
+ 
 }
 
 module.exports = nextConfig

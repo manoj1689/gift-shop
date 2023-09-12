@@ -58,7 +58,8 @@ const Header = () => {
                 <span>
                   <PersonIcon className={styles.signUpIcon}  />
                 </span>
-                <span className={styles.iconText}>Sign up</span>
+                <span className={styles.iconText}>
+                  <Link href="/Pages/register">Sign Up</Link></span>
               </span>
               <span>
                 <span className={styles.contact}>

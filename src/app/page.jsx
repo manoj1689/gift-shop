@@ -6,6 +6,8 @@ import Link from "next/link";
 import { useState } from "react";
 import { useSession } from "next-auth/react";
 import { redirect } from "next/navigation";
+import { signIn,signOut } from "next-auth/react";
+import Button from 'react-bootstrap/Button';
 export default function Home() {
  const {data:session}=useSession(
   {require:true,
@@ -15,7 +17,7 @@ export default function Home() {
  )
   return (
     <>
-     <HomeHead />
+     <HomeHead  />
       <div className={styles.homeHead}>
        {session?User({session}):Guest()}
       </div>
@@ -34,12 +36,16 @@ function Guest(){
 }
 
 function User({session}){
+  async function GoogleSignOut(){
+    signOut({redirect: "/", callbackUrl: "http://localhost:3000"})
+  }
   return (
     <div>
       <h1> User Home Page</h1>
       <h3>{session.user.name}</h3>
       <div><Categories/> </div>
       <Link href="/profile">Profile Page</Link>
+      <Button variant="light" type="button" onClick={GoogleSignOut}>SignOut </Button>
     </div>
   )
 }

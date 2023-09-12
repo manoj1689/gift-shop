@@ -1,50 +1,72 @@
-"use client"
-import React from 'react'
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
-import Link from 'next/link';
+import { prismaVal } from "@/app/lib/prisma";
+import { hash } from "bcrypt";
+import Link from "next/link";
+import styles from "./page.module.css";
 
 function register() {
-  
-  
+  async function registerUser(data: FormData) {
+     'use server'
 
-  return (
-    <div>
-      <Form >
-      <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Label>User Name</Form.Label>
-        <Form.Control type="text"  required name="name" placeholder="Enter name"  value={name} onChange={handleChange}/>
-        <Form.Text className="text-muted">
-          We will never share your email with anyone else.
-        </Form.Text>
-      </Form.Group>
-      <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Label>Email address</Form.Label>
-        <Form.Control type="email" required name="email" placeholder="Enter email" value={email} onChange={handleChange}/>
-        <Form.Text className="text-muted">
-          We will never share your email with anyone else.
-        </Form.Text>
-      </Form.Group>
+    console.log("Data", data);
 
-      <Form.Group className="mb-3" controlId="formBasicPassword">
-        <Form.Label> Enter Password</Form.Label>
-        <Form.Control type="password" required name="password" placeholder="Enter Password" value={password} onChange={handleChange} />
-      </Form.Group>
-     
+    const password = await hash(data.get("password") as string, 12);
+    const user = await prismaVal.user.create({
+      data: {
+        name: data.get("name") as string,
+        email: data.get("email") as string,
+        password,
+      }
+    });
+  }
+    return (
+      <>
+         <div className={styles.signUpBox}>
+        <div className={styles.signUpHeading}>
+          <h1>Sign Up</h1>
+        </div>
 
-    
-      <Form.Group className="mb-3" controlId="formBasicCheckbox">
-        <Form.Check type="checkbox" label="Check me out" />
-      </Form.Group>
-      <Button variant="primary" type="submit">
-        Submit
-      </Button>
-    
-    </Form>
-    Do you have account?
-        <Link href="/Pages/login">login</Link> 
-    </div>
-  )
-}
+          <form action={registerUser} className={styles.formBox}>
+            <div className={styles.inputBox}>
+              <label className="form-label">Name</label>
+              <input className="form-control" name="name" required />
+              <div id="name" className={styles.formText}>
+                Please Enter your Name
+              </div>
+            </div>
+            <div className={styles.inputBox}>
+              <label className="form-label">Email address</label>
+              <input
+                className="form-control"
+                type="email"
+                name="email"
+                required
+              />
+              <div id="emailHelp" className={styles.formText}>
+                We will never share your email with anyone else.
+              </div>
+            </div>
+            <div className={styles.inputBox}>
+              <label className="form-label">Password</label>
+              <input
+                className="form-control"
+                type="password"
+                name="password"
+                required
+              />
+            </div>
 
-export default register
+            <button type="submit" className={styles.registerButton}>
+              Register
+            </button>
+          </form>
+          <div className={styles.loginLink}>Do you have account?
+          <Link href="/api/auth/signin"><span className={styles.loginText}>Login</span></Link>
+          </div>
+          </div>
+          
+          
+      
+      </>
+    );
+  }
+export default register;
