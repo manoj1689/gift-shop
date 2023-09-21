@@ -109,6 +109,9 @@ export const Options: NextAuthOptions = {
               }
             }
           },
+          redirect({ url, baseUrl }) {
+            return baseUrl
+          },
           jwt: ({ token, user }) => {
             console.log('JWT Callback', { token, user })
             if (user) {

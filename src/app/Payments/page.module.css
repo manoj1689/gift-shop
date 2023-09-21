@@ -1,0 +1,15 @@
+.paymentBox{
+    padding: 50px 10px 100px 10px;
+}
+
+.paymentDetailsBox{
+    width: 100%;
+   text-align: center;
+}
+
+.returnPolicyBox{
+    font-weight: 700;
+    background: #eeeeee;
+    border: 1px solid #cccccc;
+    padding: 5px 10px;
+}

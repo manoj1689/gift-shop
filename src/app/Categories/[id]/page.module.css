@@ -1,0 +1,28 @@
+
+.categoryContainer{
+min-height: 70vh;
+}
+
+.card {
+  position: relative;
+  text-align: left;
+  margin: 10px auto 10px auto;
+  width: 25rem;
+}
+.paginationContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Adjust as needed */
+}
+
+
+@media screen and (max-width: 480px) {
+  .card {
+    position: relative;
+    text-align: center;
+    margin: 10px auto 10px auto;
+    width: 15rem;
+  }
+  
+    }

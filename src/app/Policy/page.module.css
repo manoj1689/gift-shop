@@ -1,0 +1,25 @@
+.policyBox{
+    padding: 50px 10px 100px 10px;
+}
+.ulContent{
+    list-style-type: decimal;
+    font-weight: 500;
+  }
+
+.liOutside{
+    list-style-position: outside;
+    list-style-type: decimal;
+}
+.liInside{
+    list-style-position: inside;
+    list-style-type: decimal;
+   
+}
+
+
+.h5{
+    display: inline;
+}
+.p{
+    display: inline;
+}

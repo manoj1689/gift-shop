@@ -2,6 +2,7 @@ import { prismaVal } from "@/app/lib/prisma";
 import { hash } from "bcrypt";
 import Link from "next/link";
 import styles from "./page.module.css";
+import { redirect } from 'next/navigation';
 
 function register() {
   async function registerUser(data: FormData) {
@@ -17,6 +18,7 @@ function register() {
         password,
       }
     });
+    redirect(`/api/auth/signin`);
   }
     return (
       <>

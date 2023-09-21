@@ -12,8 +12,9 @@ export default function Home() {
  const {data:session}=useSession(
   {require:true,
   onUnauthenticated(){
-    redirect('/about')
+    redirect('/')
   }}
+
  )
   return (
     <>

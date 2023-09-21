@@ -1,29 +1,40 @@
 import React from "react";
 import Link from "next/link";
-import styles from './page.module.css'
+import styles from "./page.module.css";
+import Products from "@/app/products.json";
+import Image from "next/image";
+import { Button, Card, Container, Row, Col } from "react-bootstrap";
+
 const page = () => {
   return (
     <main className={styles.main}>
       <div>
-        <h2>Categories page</h2>
+        <Container >
+          <Row>
+            {Products.map((categories) => (
+              <>
+                <Col>
+                  <Card className={styles.card} >
+                    <Card.Img
+                      className={styles.cardImg}
+                     
+                      src={categories.image}
+                    />
+
+                    <Card.Title className={styles.catBox}>
+                      <Link href={`/Categories/${categories.id}`}>
+                        <div className={styles.catName}>
+                          {categories.category}
+                        </div>
+                      </Link>
+                    </Card.Title>
+                  </Card>
+                </Col>
+              </>
+            ))}
+          </Row>
+        </Container>
       </div>
-      <ul>
-        <li>
-          <Link href="/Categories/CategoriesItem/1">Items 1</Link>
-        </li>
-        <li>
-          <Link href="/Categories/CategoriesItem/2">Items 2</Link>
-        </li>
-        <li>
-          <Link href="/Categories/CategoriesItem/3">Items 3</Link>
-        </li>
-        <li>
-          <Link href="/Categories/CategoriesItem/4">Items 4</Link>
-        </li>
-        <li>
-          <Link href="/Categories/CategoriesItem/5">Items 5</Link>
-        </li>
-      </ul>
     </main>
   );
 };

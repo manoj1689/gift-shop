@@ -1,9 +1,50 @@
-.main {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 6rem;
-  min-height: 80vh;
+.card {
+  position: relative;
+  text-align: center;
+  margin: 10px auto 10px auto;
+  width: 25rem;
+}
+.cardImg {
+  object-fit: contain;
 }
 
+.cardImg:hover {
+  filter: blur(1.5px);
+}
+
+.catBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.catName {
+  font-size: 60px;
+  font-family: "Times New Roman", Times, serif;
+
+  color: whitesmoke;
+}
+
+.catName:hover {
+  font-size: 65px;
+  font-family: "Times New Roman", Times, serif;
+  color: #ec5459;
+  filter: blur(0.5px);
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+    position: relative;
+    text-align: center;
+    margin: 10px auto 10px auto;
+    width: 15rem;
+  }
+  .catName {
+    font-size: 30px;
+    
+  }
+  .catName:hover {
+    font-size: 35px;
+ 
+  }
+    }
