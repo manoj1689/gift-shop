@@ -11,8 +11,10 @@ import CallIcon from "@mui/icons-material/Call";
 import VariantsExample from "./HeaderDropdown/page"
 import DrawerComponent from "./LeftSideBar/page"
 import SearchIcon from '@mui/icons-material/Search';
+import { useCart } from "@/app/cartContext/page";
 
 const Header = () => {
+  const { state} = useCart();
   return (
     <>
       <div className={styles.fullHeader}>
@@ -39,13 +41,18 @@ const Header = () => {
                       vertical: "top",
                       horizontal: "left",
                     }}
-                    badgeContent={4}
+                    badgeContent={state.cartItems.length} 
                     color="warning"
                   >
+                    
                     <ShoppingCartIcon className={styles.Icon} />
                   </Badge>
+                  
                 </span>
+                <Link href={"/cartProducts"}>
                 <span className={styles.iconText}>Cart</span>
+                  </Link>
+               
               </span>
               <span className={styles.topIconBox}>
                 <span>

@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import styles from "./page.module.css";
 import Products from "@/app/products.json";
-import Image from "next/image";
+
 import { Button, Card, Container, Row, Col } from "react-bootstrap";
 
 const page = () => {
@@ -10,10 +10,10 @@ const page = () => {
     <main className={styles.main}>
       <div>
         <Container >
-          <Row>
+          <Row >
             {Products.map((categories) => (
               <>
-                <Col>
+                <Col >
                   <Card className={styles.card} >
                     <Card.Img
                       className={styles.cardImg}

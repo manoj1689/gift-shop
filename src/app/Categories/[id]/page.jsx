@@ -53,10 +53,35 @@ const ProductsPage = ({ params }) => {
           <Card className={styles.card}>
             <Card.Img variant="top" src="/images/productImg/CardImage.avif" />
             <Card.Body>
-              <Card.Title>{product.Name}</Card.Title>
               <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                <p>
+                {product.Name}
+                </p>
+              <div className={styles.priceDetails}>
+                <div className={styles.offPrice}>
+              {product.OffPrice}
+                </div>
+                <div className={styles.originalPrice}>
+                  <del>
+                 {product.OriginalPrice}
+                  </del>
+                  
+                </div>
+                <div className={styles.discount}>
+               {product.Discount}
+                </div>
+              </div>
+              <div className={styles.cashBackDiv}>
+              <div className={styles.cashBackText}>
+               
+                cashBack of
+                
+                
+              </div>
+              <div className={styles.cashBackAmount}>
+              {product.cashBack}
+              </div>
+              </div>
               </Card.Text>
             </Card.Body>
           </Card>
