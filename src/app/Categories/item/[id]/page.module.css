@@ -34,7 +34,7 @@
 .entryBox {
   padding: 10px 0 10px 0;
 }
-.enterDetails {
+.details {
   border-radius: 0px;
   max-width: 60%;
 }
@@ -206,7 +206,7 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .enterDetails {
+  .details {
     border-radius: 0px;
     max-width: 80%;
   }
@@ -219,7 +219,7 @@
 }
 
 @media screen and (max-width: 480px) {
-  .enterDetails {
+  .details{
     border-radius: 0px;
     max-width: 100%;
   }

@@ -39,7 +39,7 @@
                 "Discount": "200 ₹ OFF",
                 "cashBack": "₹50",
                 "Tag": "Best Selling",
-                "enterDetails": [],
+                
                 "selectSize": [
                     "Small(6x4 inch)",
                     "Large(8x6)- ₹250"
@@ -154,7 +154,7 @@
                 "uploadPhoto": [
                     "Please Upload photo you Want to see on Lamp"
                 ],
-                "enterDetails": [],
+                
                 "selectOccasions": [
                     "Happy Birthday",
                     "Happy Married Life",
@@ -271,9 +271,9 @@
                     "Happy Valentine",
                     "Happy RakshaBandhan"
                 ],
-                "enterDetails": [
-                    "Please Enter your name you want to see on lamp"
-                ],
+                
+                "showName":"Please Enter your name you want to see on lamp",
+               
                 "selectColor": [
                     "WARM WHITE (SINGLE COLOR)",
                     "MULTICOLOR WITH REMOTE EXTRA- ₹199"
@@ -380,10 +380,8 @@
                     "Happy Valentine",
                     "Happy RakshaBandhan"
                 ],
-                "enterDetails": [
-                    "Enter Your Name -1(Which you want on lamp)",
-                    "Enter Your Name -2(Which you want on lamp)"
-                ],
+              
+                "showName":"Please Enter your name you want to see on lamp",
                 "selectColor": [
                     "WARM WHITE (SINGLE COLOR)",
                     "MULTICOLOR WITH REMOTE EXTRA- ₹199"
@@ -491,7 +489,7 @@
                     "Happy Valentine",
                     "Happy RakshaBandhan"
                 ],
-                "enterDetails": [],
+                
                 "AddSpeakers": [
                     "I DON'T WANT",
                     "I WANT -₹799"
@@ -588,7 +586,7 @@
                 "uploadPhoto": [
                     "Please Upload photo you Want to see on Lamp"
                 ],
-                "enterDetails": [],
+              
                 "selectOccasions": [
                     "Happy Birthday",
                     "Happy Married Life",
@@ -813,10 +811,9 @@
                     "Happy Valentine",
                     "Happy RakshaBandhan"
                 ],
-                "enterDetails": [
-                    "Enter Your Name -1(Which you want on lamp)",
-                    "Enter Your Name -2(Which you want on lamp)"
-                ],
+                "showName": "Enter Your Name -1(Which you want on lamp)",
+                "singleName":"Enter Your Name -2(Which you want on lamp)",
+                
                 "selectColor": [
                     "WARM WHITE (SINGLE COLOR)",
                     "MULTICOLOR WITH REMOTE EXTRA- ₹199"
@@ -914,7 +911,7 @@
                 "Discount": "₹801 OFF",
                 "cashBack": "₹60",
                 "Tag": "50% OFF",
-                "enterDetails": [],
+                
                 "selectSize": [
                     "Size : 12 Height X 12 Length X 12 Width Centimeter",
                     "Size : 15 Height X 15 Length X 15 Width Centimeter Extra - ₹400"
@@ -994,7 +991,7 @@
                 "Discount": "300 ₹ OFF",
                 "cashBack": "₹80",
                 "Tag": "Your Photo Here",
-                "enterDetails": ["Enter Your Names Show On Top Of The Lid"],
+                "showName": "Enter Your Names Show On Top Of The Lid",
                 "selectSize": [
                     "Size : 12 Height X 12 Length X 12 Width Centimeter",
                     "Size : 15 Height X 15 Length X 15 Width Centimeter Extra - ₹400"
@@ -1076,7 +1073,7 @@
                 "Discount": "200 ₹ OFF",
                 "Tag": "Best Selling",
                 "cashBack": "₹60",
-                "enterDetails": ["Enter Your Names Show On Top Of The Lid"],
+                "showName": "Enter Your Names Show On Top Of The Lid",
                 "selectSize": [
                     "Size : 12 Height X 12 Length X 12 Width Centimeter",
                     "Size : 15 Height X 15 Length X 15 Width Centimeter Extra - ₹400"
@@ -1157,7 +1154,7 @@
                 "Discount": "200 ₹ OFF",
                 "Tag": "Best Selling",
                 "cashBack": "₹60",
-                "enterDetails": ["Enter Your Names Show On Top Of The Lid"],
+                "showName": "Enter Your Names Show On Top Of The Lid",
                 "selectSize": [
                     "Size : 12 Height X 12 Length X 12 Width Centimeter",
                     "Size : 15 Height X 15 Length X 15 Width Centimeter Extra - ₹400"
@@ -1250,7 +1247,7 @@
                     "WARM WHITE (SINGLE COLOR)",
                     "WARM WHITE (SINGLE COLOR)"
                 ],
-                "enterDetails":["Enter Your Name want to see on Board"],
+                "showName":"Enter Your Name want to see on Board",
                 "AddOns": {
                     "1": "Gift wrap this item for + ₹ 100",
                     "2": "Add Greeting Card + ₹ 200"
@@ -1327,7 +1324,8 @@
                 "Discount": "₹500 OFF",
                 "Tag": "Best Selling",
                 "cashBack":"₹60",
-                "enterDetails": ["Enter name 1","Enter name 2"],
+                "showName": "Enter name 1",
+                "singleName":"Enter name 2",
                 "Message": "Small Message/Quote/Text",
                 "AddOns": {
                     "1": "Gift wrap this item for + ₹ 100",
@@ -1405,7 +1403,7 @@
                 "Discount": "₹200 OFF",
                 "Tag": "Best Selling",
                 "cashBack":"₹50",
-                "enterDetails":[],
+                
                 "selectColor": [
                     "WARM WHITE (SINGLE COLOR)",
                     "WARM WHITE (SINGLE COLOR)"
@@ -1484,7 +1482,7 @@
                 "Discount": "₹400 OFF",
                 "Tag": "Trending",
                 "cashBack":"₹100", 
-                "enterDetails": [],
+                
                 "selectSize": [
                     "Size : 10 Height X 10 Length Inches",
                     "Size : 16 Height X 16 Length Inches Extra- ₹500"
@@ -1602,7 +1600,7 @@
                 "Discount": "1000 ₹ OFF",
                 "Tag": "Recent",
                 "cashBack":"₹80",
-                "enterDetails": [],
+                
                 "selectSize": [
                     "Size : 16 Height X 16 Length Inches",
                     "Size : 20 Height X 20 Length Inches Extra- ₹500"
@@ -1676,7 +1674,7 @@
                 "Discount": "₹700 OFF",
                 "Tag": "Best Selling",
                 "cashBack":"₹40",
-                "enterDetails": [],
+             
                 "uploadPhoto": "Upload Photo -(For Clock , which you want to see on Clock)",
                 "AddOns": {
                     "1": "Gift wrap this item for + ₹ 100",
@@ -1746,7 +1744,7 @@
                 "Discount": "500 ₹ OFF",
                 "Tag": "Your Photo Here",
                 "cashBack":"₹50",
-                "enterDetails": [],
+               
                 "selectSize": [
                     "Size : 8 Height X 8 Length Inches",
                     "Size : 10 Height X 10 Length Inches Extra- ₹200"
@@ -1820,7 +1818,7 @@
                 "Discount": "₹1000 OFF",
                 "Tag": "Recent",
                 "cashBack":"₹120",
-                "enterDetails": [],
+                
                 "selectSize": [
                     "Size : 15.5  Height X 15.5 Length Inches",
                     "Size : 20 Height X 20 Length Inches Extra- ₹300"
@@ -1901,11 +1899,10 @@
                 "Discount": "₹800 OFF",
                 "Tag": "50% OFF",
                 "cashBack":"₹40",
-                "enterDetails": [
-                    "Enter Your Name",
-                    "Enter Your Year",
-                    "Enter Your Date"
-                ],
+                
+                "showName":"Enter Your Name",
+                "year":"Enter Your Year",
+                "date":"Enter Your Date",
                 "selectOccasions": [
                     "Happy Birthday",
                     "Happy Anniversary"
@@ -1978,11 +1975,9 @@
                 "Discount": "₹500 OFF",
                 "Tag": "50% OFF",
                 "cashBack":"₹120",
-                "enterDetails": [
-                    "Enter Your Name",
-                    "Enter Your Year",
-                    "Enter Your Date"
-                ],
+                "showName":"Enter Your Name",
+                "year":"Enter Your Year",
+                "date":"Enter Your Date",
                 "selectOccasions": [
                     "Happy Birthday",
                     "Happy Anniversary"
@@ -2055,11 +2050,9 @@
                 "Discount": "₹800 OFF",
                 "Tag": "50% OFF",
                 "cashBack":"₹60",
-                "enterDetails": [
-                    "Enter Your Name",
-                    "Enter Your Year",
-                    "Enter Your Date"
-                ],
+                "showName":"Enter Your Name",
+                "year":"Enter Your Year",
+                "date":"Enter Your Date",
                 "selectOccasions": [
                     "Happy Birthday",
                     "Happy Anniversary"
@@ -2217,7 +2210,7 @@
                 "Discount": "₹500 OFF",
                 "cashBack":"₹100",
                 "Tag": "Recent",
-                "enterDetails": ["Enter Your Names/Quote/Text"],
+                "showName": "Enter Your Names/Quote/Text",
                 "selectSize": [
                     "12X18 INCH - Upto 6 Alphabets ONLY!",
                     "12X24 INCH - Upto 8 Alphabets EXTRA - ₹1000",
@@ -2300,10 +2293,8 @@
                 "Discount": "500 ₹ OFF",
                 "Tag": "Recent",
                 "cashBack":"₹80",
-                "enterDetails": [
-                    "Couple Name",
-                    "Single Name"
-                ],
+                "singleName":"Single Name",
+                "coupleName":"Couple Name",
                 "selectSize": [
                     "12X12 INCH ",
                     "12X18 INCH - EXTRA - ₹500",
@@ -2393,7 +2384,7 @@
                 "Discount": "1000 ₹ OFF",
                 "Tag": "Recent",
                 "cashBack":"₹100",
-                "enterDetails": ["Enter Your Names/Quote/Text"],
+                "showName": "Enter Your Names/Quote/Text",
                 "selectColor1": [
                     "Ice Blue",
                     "White",
@@ -2483,7 +2474,7 @@
                 "Discount": "₹500 OFF",
                 "Tag": "Recent",
                 "cashBack":"₹140",
-                "enterDetails": ["Enter Your Names/Quote/Text"],
+                "showName": "Enter Your Names/Quote/Text",
                 "selectSize": [
                     "Size : 12 Height X 12 Length Inches",
                     "Size : 16 Height X 16 Length Inches Extra- ₹1500",
@@ -3083,7 +3074,8 @@
                 "Discount": "100 ₹ OFF",
                 "Tag": "Recent",
                 "cashBack":"₹40",
-                "enterDetails":[ "Enter Your Names/Quote/Text", "Enter Your Date"],
+                "showName": "Enter Your Names/Quote/Text",
+                "date":"Enter Your Date",
                 "AddOns": {
                     "1": "Gift wrap this item for + ₹ 100",
                     "2": "Add Greeting Card + ₹ 200",
@@ -3244,10 +3236,8 @@
                 "Discount": "401 ₹ OFF",
                 "Tag": "Recent",
                 "cashBack":"₹200",
-                "enterDetails": [
-                    "Couple Name",
-                    "Single Name"
-                ],
+                "coupleName": "Couple Name",
+                "singleName":"Single Name ",
                 "selectSize": [
                     "Size : 12 Height X 12 Length Inches",
                     "Size : 16 Height X 16 Length Inches Extra- ₹500",
@@ -3339,10 +3329,8 @@
                 "Discount": "201 ₹ OFF",
                 "Tag": "Recent",
                 "cashBack":"₹200",
-                "enterDetails": [
-                    "Couple Name",
-                    "Single Name"
-                ],
+                "coupleName": "Couple Name",
+                "singleName":"Single Name ",
                 "selectSize": [
                     "Size : 12 Height X 12 Length Inches",
                     "Size : 16 Height X 16 Length Inches Extra- ₹600",
@@ -3442,7 +3430,7 @@
                 "Discount": "₹400 OFF",
                 "Tag": "Recent",
                 "cashBack":"₹30",
-                "enterDetails": ["Enter Your Names/Quote/Text"],
+                "showName": "Enter Your Names/Quote/Text",
                 "selectSize": [
                     "Size : 12 Height X 12 Length Inches",
                     "Size : 16 Height X 16 Length Inches Extra- ₹600",
@@ -3588,7 +3576,7 @@
                     "WARM WHITE (SINGLE COLOR)",
                     "MULTICOLORED WITH REMOTE EXTRA- ₹200"
                 ],
-                "enterDetails": ["Enter Your Names/Quote/Text"],
+                "showName": "Enter Your Names/Quote/Text",
                 "AddOns": {
                     "1": "Gift wrap this item for + ₹ 80",
                     "2": "Add Greeting Card + ₹ 140",
@@ -3677,7 +3665,7 @@
                     "WARM WHITE (SINGLE COLOR)",
                     "MULTICOLORED WITH REMOTE EXTRA- ₹200"
                 ],
-                "enterDetails": ["Enter Your Names/Quote/Text"],
+                "showName": "Enter Your Names/Quote/Text",
                 "AddOns": {
                     "1": "Gift wrap this item for + ₹ 80",
                     "2": "Add Greeting Card + ₹ 140",
@@ -3753,7 +3741,7 @@
                 "Discount": "300 ₹ OFF",
                 "Tag": "Best Selling",
                 "cashBack":"₹60",
-                "enterDetails": ["Enter Your Names/Quote/Text"],
+                "showName": "Enter Your Names/Quote/Text",
                 "selectColor": [
                     "WARM WHITE (SINGLE COLOR)",
                     "MULTICOLORED WITH REMOTE EXTRA- ₹200"
@@ -3839,9 +3827,7 @@
                 "Discount": "400 ₹ OFF",
                 "Tag": "Recent",
                 "cashBack":"₹80",
-                "enterDetails": [
-                    "Enter Your Name"
-                ],
+                "showName": "Enter Your Name",
                 "AddOns": {
                     "1": "Gift wrap this item for + ₹ 100",
                     "2": "Add Greeting Card + ₹ 200",
@@ -3918,9 +3904,7 @@
                 "Discount": "400 ₹ OFF",
                 "Tag": "Recent",
                 "cashBack":"₹100",
-                "enterDetails": [
-                    "Enter Your Name"
-                ],
+                "showName": "Enter Your Name",
                 "AddOns": {
                     "1": "Gift wrap this item for + ₹ 100",
                     "2": "Add Greeting Card + ₹ 200",
@@ -3989,9 +3973,7 @@
                 "Discount": "300 ₹ OFF",
                 "Tag": "Recent",
                 "cashBack":"₹50",
-                "enterDetails": [
-                    "Enter Your Name"
-                ],
+                "showName": "Enter Your Name",
                 "AddOns": {
                     "1": "Gift wrap this item for + ₹ 100",
                     "2": "Add Greeting Card + ₹ 200",
@@ -4061,9 +4043,7 @@
                 "Discount": "200 ₹ OFF",
                 "Tag": "Recent",
                 "cashBack":"₹200",
-                "enterDetails": [
-                    "Enter Your Name"
-                ],
+                "showName": "Enter Your Name",
                 "AddOns": {
                     "1": "Gift wrap this item for + ₹ 100",
                     "2": "Add Greeting Card + ₹ 200",
@@ -4139,9 +4119,7 @@
                 "Discount": "200 ₹ OFF",
                 "Tag": "Recent",
                 "cashBack":"₹60",
-                "enterDetails": [
-                    "Enter Your Name"
-                ],
+                "showName": "Enter Your Name",
                 "AddOns": {
                     "1": "Gift wrap this item for + ₹ 100",
                     "2": "Add Greeting Card + ₹ 200",
@@ -4210,9 +4188,7 @@
                 "Discount": "₹400 OFF",
                 "Tag": "Recent",
                 "cashBack":"₹30",
-                "enterDetails": [
-                    "Enter Your Name"
-                ],
+                "showName": "Enter Your Name",
                 "AddOns": {
                     "1": "Gift wrap this item for + ₹ 100",
                     "2": "Add Greeting Card + ₹ 200",
@@ -4281,9 +4257,11 @@
                 "Discount": "200 ₹ OFF",
                 "Tag": "Recent",
                 "cashBack":"₹50",
-                "enterDetails": [
-                    "Enter Your Name"
-                ],
+                "showName":"Enter Your Name/Quote/Text",
+                "singleName":"Single Name ",
+                "coupleName":"Couple Name",
+                "date":"Enter Your Date",
+                "year":"Enter Your Year",
                 "AddOns": {
                     "1": "Gift wrap this item for + ₹ 100",
                     "2": "Add Greeting Card + ₹ 200",
@@ -4352,9 +4330,7 @@
                 "Discount": "200 ₹ OFF",
                 "Tag": "Recent",
                 "cashBack":"₹50",
-                "enterDetails": [
-                    "Enter Your Name"
-                ],
+                "showName": "Enter Your Name",
                 "AddOns": {
                     "1": "Gift wrap this item for + ₹ 100",
                     "2": "Add Greeting Card + ₹ 200",
@@ -4430,7 +4406,7 @@
                 "Discount": "₹400 OFF",
                 "Tag": "Recent",
                 "cashBack":"₹40",
-                "enterDetails": ["Enter Your Names/Quote/Text"],
+                "showName": "Enter Your Names/Quote/Text",
                 "selectAlphabet": [
                     "A",
                     "B",
@@ -4535,7 +4511,7 @@
                 "Discount": "400 ₹ OFF",
                 "Tag": "Recent",
                 "cashBack":"₹50",
-                "enterDetails":[ "Enter Your Names/Quote/Text"],
+                "showName": "Enter Your Names/Quote/Text",
                 "selectAlphabet": [
                     "A",
                     "B",
@@ -4633,7 +4609,7 @@
                 "Discount": "500 ₹ OFF",
                 "Tag": "Recent",
                 "cashBack":"₹60",
-                "enterDetails": ["Enter Your Names/Quote/Text"],
+                "showName": "Enter Your Names/Quote/Text",
                 "uploadPhoto": "Upload Pic you want to see on item",
                 "AddOns": {
                     "1": "Gift wrap this item for + ₹ 100",
@@ -4704,7 +4680,7 @@
                 "Discount": "400 ₹ OFF",
                 "Tag": "Recent",
                 "cashBack":"₹200",
-                "EnterName": ["Enter Your Names/Quote/Text"],
+                "showName": "Enter Your Names/Quote/Text",
                 "ChooseAlphabet": [
                     "A",
                     "B",
@@ -4802,7 +4778,7 @@
                 "Discount": "200 ₹ OFF",
                 "Tag": "Recent",
                 "cashBack":"₹40",
-                "EnterName": ["Enter Your Names/Quote/Text"],
+                "showName": "Enter Your Names/Quote/Text",
                 "AddOns": {
                     "1": "Gift wrap this item for + ₹ 100",
                     "2": "Add Greeting Card + ₹ 200",
@@ -4981,7 +4957,7 @@
                 "Discount": "200 ₹ OFF",
                 "Tag": "Trending",
                 "cashBack":"₹100",
-                "enterDetails":[ "Enter Your Date"],
+                "date": "Enter Your Date",
                 "AddOns": {
                     "1": "Gift wrap this item for + ₹ 100",
                     "2": "Add Greeting Card + ₹ 200",
@@ -5056,7 +5032,7 @@
                 "Discount": "300 ₹ OFF",
                 "Tag": "Your Photo Here",
                 "cashBack":"₹100",
-                "enterDetails": ["Enter Your Date"],
+                "date": "Enter Your Date",
                 "AddOns": {
                     "1": "Gift wrap this item for + ₹ 100",
                     "2": "Add Greeting Card + ₹ 200",
@@ -5134,7 +5110,6 @@
                 "selectSize": [],
                 "selectColor": [],
                 "selectAlphabet": [],
-                "enterDetails": [],
                 "uploadPhoto": "Upload photo you want to see on item",
                 "selectOccasions": [],
                 "Message": "Small Message/Quote/Text",
