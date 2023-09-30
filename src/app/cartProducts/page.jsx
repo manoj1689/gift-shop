@@ -6,6 +6,7 @@ import Image from 'next/image';
 import styles from './page.module.css';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation'; // Import the correct router module
+import DeleteIcon from '@mui/icons-material/Delete';
 
 function Cart() {
   const router = useRouter();
@@ -42,39 +43,43 @@ function Cart() {
                   alt="Empty Cart Image"
                   width={300}
                   height={250}
-                  className="Image"
+                  className={styles.Image}
                 />
               </div>
               <br />
               <p>Your Cart is Empty.</p>
               <p>Add items to your cart.</p>
-              <Button className={styles.shopNow}>Shop Now</Button>
+              <Button className={styles.shopNow}> <span>Shop</span> <span className={styles.Now}> Now</span></Button>
             </>
           ) : (
             <div>
               {state.cartItems.map((item) => (
                 <div key={item.productId}>
                   <Row>
-                    <Col>
+                    <Col sm>
                       {/* Display product images here */}
-                      <Image src={item.imageSrc} alt="Product Image" width={100} height={100} />
+                      Image
                     </Col>
-                    <Col>
+                    <Col sm>
                       <Row>{item.name}</Row>
-                      <Row>Quantity: {item.quantity}</Row>
-                      <Row>Price: ₹{item.price}</Row>
+                      <Row>Price: {item.price}</Row>
                     </Col>
-                    <Col>
-                      <Button onClick={() => removeFromCart(item.productId)}>
-                        Remove
+                   
+                    <Col sm>
+                    <Row>Quantity</Row>
+                    <Row>{item.quantity}</Row>
+                    </Col>
+                    <Col sm>
+                      <Button onClick={() => removeFromCart(item.productId)} variant='light'>
+                      <DeleteIcon sx={{ color: 'orange',fontSize:"32px"}}/>
                       </Button>
                     </Col>
                   </Row>
                 </div>
               ))}
-              <Row>
+              <div>
                 <Button onClick={handleCheckout}>Checkout</Button>
-              </Row>
+              </div>
             </div>
           )}
         </div>

@@ -17,7 +17,7 @@ import { useRouter } from "next/navigation";
 import SearchIcon from '@mui/icons-material/Search';
 
 const Header = () => {
-  const [showBadge, setShowBadge] = useState(true);
+  const [showBadge, setShowBadge] = useState(false);
   const router = useRouter();
   const { state } = useCart();
   const [searchText, setSearchText] = useState("");
@@ -114,8 +114,8 @@ const Header = () => {
 
         <Col className={styles.topHeaderRight}>
           <div className={styles.topIcons}>
-            <span className={styles.topIconBox}>
-              <span>
+            <div className={styles.topIconBox}>
+              <div>
               {showBadge && (
                 <Badge
                   anchorOrigin={{
@@ -128,33 +128,37 @@ const Header = () => {
                   <ShoppingCartIcon className={styles.Icon} />
                 </Badge>
               )}
-              </span>
+              </div>
+              <div className={styles.iconText}>
               <Link href={"/cartProducts"}>
-                <span className={styles.iconText}>Cart</span>
+                Cart
               </Link>
-            </span>
-            <span className={styles.topIconBox}>
-              <span>
+
+              </div>
+              
+            </div>
+            <div className={styles.topIconBox}>
+              <div>
                 <PersonIcon className={styles.Icon}  />
-              </span>
-              <span className={styles.iconText}>
+              </div>
+              <div className={styles.iconText}>
                 <Link href="/api/auth/signin">Sign In</Link>
-              </span>
-            </span>
-            <span className={styles.topIconBox}>
-              <span>
+              </div>
+            </div>
+            <div className={styles.topIconBox}>
+              <div>
                 <PersonIcon className={styles.signUpIcon}  />
-              </span>
-              <span className={styles.iconText}>
+              </div>
+              <div className={styles.iconText}>
                 <Link href="/Pages/register">Sign Up</Link>
-              </span>
-            </span>
-            <span>
+              </div>
+            </div>
+            <div>
               <span className={styles.contact}>
                 <CallIcon className={styles.callIcon} />
                 <span className={styles.contactDetails}>+91xxx-xxx-xxxx|10AM To 7PM</span>
               </span>
-            </span>
+            </div>
           </div>
         </Col>
       </Row>
