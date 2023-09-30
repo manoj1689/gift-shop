@@ -6,9 +6,13 @@ const CartContext = createContext();
 
 // Function to get cart data from localStorage
 const getCartFromLocalStorage = () => {
-  const cartData = localStorage.getItem('cart');
-  return cartData ? JSON.parse(cartData) : [];
+  if (typeof localStorage !== 'undefined') {
+    const cartData = localStorage.getItem('cart');
+    return cartData ? JSON.parse(cartData) : [];
+  }
+  return [];
 };
+
 
 // Function to save cart data to localStorage
 const saveCartToLocalStorage = (cart) => {

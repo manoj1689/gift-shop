@@ -58,21 +58,52 @@
 }
 .callIcon {
   font-size: 50px;
-  color: #fff;
+  color: #e7dede;
 }
 
-.searchInput{
-  padding: 7px;
-  outline: 0;
-  min-width: 400px;
-  font-size: 14px;
-  opacity: .7;
 
+/* Custom styles for ReactSearchAutocomplete results */
+.searchBarDesktop {
+ 
+  position: relative; 
+  z-index: 1000; 
+  border-radius: 0px;
+  display: flex;
+  height: 38px;
 }
+.searchBar{
+  
+ min-width: 400px;
+}
+
+
+.searchResults {
+ 
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1001; 
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+/* Styles for individual result items */
+.searchResultsItem {
+  /* Customize the appearance of each result item */
+  padding: 10px;
+  cursor: pointer;
+ 
+}
+
+
+
 
 .searchButton{
   outline: 0;
-  padding:5px 10px 5px 10px;
+  padding:10px 10px 10px 10px;
   margin-left: 2px;
   border-width: thin;
   border-color: #fff;
@@ -82,18 +113,8 @@
   font-weight: bold;
   
 }
-
-
-.mobileViewSearch{
-  width:100%;
-  
-}
-
-.mobileViewSearchInput{
-  width: 97%;
-  padding: 5px;
-  margin: 5px;
-  outline: 0;
+.searchButtonBox{
+  padding-top: 8px;
 }
 
 .mobileView{
@@ -115,10 +136,26 @@
     font-size: 35px;
     color: #fff;
   }
+.mobileView{
+  padding: 5px;
+  display: flex;
+  width: 100%;
 
-  .searchBox {
-    display: none
-  }
+}
+
+.searchBarMobileBox{
+   width: 100%; 
+  position: relative; 
+  z-index: 1000; 
+  border-radius: 0px;
+  display: flex;
+  height: 38px;
+
+}
+.searchBarMobile{
+   width: 100%  
+}
+  
   .contactDetails {
     display: none;
   }
@@ -133,9 +170,10 @@
   .signUpIcon {
     display: none;
   }
-  .mobileView{
-    display: flex;
+  .searchBarDesktop {
+    display: none;
   }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -154,9 +192,7 @@
     color: #fff;
   }
 
-  .searchBar {
-    display: none;
-  }
+  
   .contactDetails {
     display: none;
   }

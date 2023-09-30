@@ -1,0 +1,42 @@
+.cartPage{
+  padding: 100px 10px 100px 10px;
+  min-height: 60vh;
+ 
+}
+
+.cartImage{
+  margin: 50px 0 50px 0;
+  
+}
+
+.itemDetails{
+  padding: 50px 0 50px 0;
+}
+
+.Image{
+  border-radius: 10px;
+}
+
+.cartContainer{
+  text-align: center;
+  margin: 200px 0 200 0;
+  background-color: antiquewhite;
+  border-radius: 5px;
+  box-shadow: 8px 8px 2px 1px rgba(209, 209, 215, 0.2);
+  
+
+ 
+}
+
+.shopNow{
+  font-size: 14px;
+  margin-top: 20px;
+  font-weight: 400;
+  padding: 12px 72px;
+  background: #2874f0;
+  color: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  border: none;
+  border-radius: 2px;
+  width: 200px;
+}

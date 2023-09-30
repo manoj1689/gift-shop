@@ -20,6 +20,7 @@ export default function Home() {
     <>
      <HomeHead  />
       <div className={styles.homeHead}>
+     
        {session?User({session}):Guest()}
       </div>
     </>

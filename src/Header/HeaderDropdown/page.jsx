@@ -4,7 +4,7 @@ import Data from "@/Header/option.json";
 import { Form, Row, Col, Button } from "react-bootstrap";
 import styles from "@/Header/HeaderDropdown/page.module.css";
 
-function VariantsExample() {
+function VariantsExample({ variants }) {
   return (
     <div className={styles.options}>
       <Button className={styles.btn}>ALL TYPES OF NEON</Button>
@@ -13,10 +13,10 @@ function VariantsExample() {
       </Link>
 
       {Data.map((variant) => (
-        <>
+        <div key={variant.id}>
           <Dropdown>
             <Dropdown.Toggle
-              id="dropdown-autoclose-true"
+              id={`dropdown-${variant.id}`} // Use a unique identifier for the Toggle
               className={styles.btn}
             >
               {variant.menu}
@@ -26,39 +26,33 @@ function VariantsExample() {
               <>
                 <Row>
                   {Object.entries(variant["sub-Menu"]).map(([keys, values]) => (
-                    <>
-                      <Col>
-                        <Dropdown.Item
-                          href="#"
-                          className={styles.dropdownListItemHeading}
-                        >
-                          {keys}
-                        </Dropdown.Item>
+                    <Col key={keys}> {/* Use 'keys' as the key */}
+                      <Dropdown.Item
+                        href="#"
+                        className={styles.dropdownListItemHeading}
+                      >
+                        {keys}
+                      </Dropdown.Item>
 
-                        <Row className="">
-                          {values.map((ele) => (
-                            <>
-                              <Row>
-                                <Col>
-                                  <Dropdown.Item
-                                    href="#"
-                                    className={styles.dropdownListItem}
-                                  >
-                                    {ele}
-                                  </Dropdown.Item>
-                                </Col>
-                              </Row>
-                            </>
-                          ))}
-                        </Row>
-                      </Col>
-                    </>
+                      <Row className="">
+                        {values.map((ele) => (
+                          <Col key={ele}> {/* Use 'ele' as the key */}
+                            <Dropdown.Item
+                              href="#"
+                              className={styles.dropdownListItem}
+                            >
+                              {ele}
+                            </Dropdown.Item>
+                          </Col>
+                        ))}
+                      </Row>
+                    </Col>
                   ))}
                 </Row>
               </>
             </Dropdown.Menu>
           </Dropdown>
-        </>
+        </div>
       ))}
     </div>
   );

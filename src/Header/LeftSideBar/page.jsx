@@ -35,14 +35,14 @@ const DrawerComponent = () => {
           </ListSubheader>
         }
       >
-        <ListItemButton>
+        <ListItemButton key="all-types-of-neon">
           <ListItemText primary="ALL TYPES OF NEON" />
         </ListItemButton>
-        <ListItemButton>
+        <ListItemButton key="home">
           <ListItemText primary="Home" />
         </ListItemButton>
         {Data.map((category) => (
-          <>
+          <div key={category.id}>
             <ListItemButton
               onClick={() => {
                 setProducts(!products), setId(category.id);
@@ -57,7 +57,7 @@ const DrawerComponent = () => {
               unmountOnExit
             >
               {Object.entries(category["sub-Menu"]).map(([keys, values]) => (
-                <>
+                <div key={keys}>
                   <List component="div" disablePadding>
                     <ListItemButton
                       onClick={() => {
@@ -77,24 +77,25 @@ const DrawerComponent = () => {
                       unmountOnExit
                     >
                       {values.map((ele) => (
-                        <>
+                        <div key={ele}>
                           <List component="div" disablePadding>
-                            <ListItemButton sx={{ pl: 4 }} onClick={()=>setOpen(false)}>
+                            <ListItemButton sx={{ pl: 4 }} onClick={() => setOpen(false)}>
                               <ListItemText primary={ele} />
                             </ListItemButton>
                           </List>
-                        </>
+                        </div>
                       ))}
                     </Collapse>
                   </List>
-                </>
+                </div>
               ))}
             </Collapse>
-          </>
+          </div>
         ))}
       </List>
     </>
   );
+ 
 
   return (
     <div>
