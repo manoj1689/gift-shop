@@ -14,8 +14,17 @@ function Cart() {
   const removeFromCart = (productId) => {
     // Dispatch the REMOVE_FROM_CART action with the product ID
     dispatch({ type: 'REMOVE_FROM_CART', payload: productId });
+  
+    // Get the current cart data from local storage
+    const cartData = JSON.parse(localStorage.getItem('cart')) || [];
+  
+    // Find and remove the item from the cart data
+    const updatedCartData = cartData.filter((item) => item.productId !== productId);
+  
+    // Update local storage with the updated cart data
+    localStorage.setItem('cart', JSON.stringify(updatedCartData));
+    window.location.reload();
   };
-
   const handleCheckout = () => {
     router.push('/cartProducts/cartCheckout'); // Navigate to the checkout page
   };

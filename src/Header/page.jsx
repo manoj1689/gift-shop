@@ -17,7 +17,7 @@ import { useRouter } from "next/navigation";
 import SearchIcon from '@mui/icons-material/Search';
 
 const Header = () => {
-  const [showBadge, setShowBadge] = useState(false);
+  const [showBadge, setShowBadge] = useState(true);
   const router = useRouter();
   const { state } = useCart();
   const [searchText, setSearchText] = useState("");
