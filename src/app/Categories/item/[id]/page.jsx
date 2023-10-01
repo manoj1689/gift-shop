@@ -12,7 +12,6 @@ import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
 import { useCart } from "@/app/cartContext/page";
 
 export default function Page({ params }) {
-  
   const [number, setNumber] = useState(1);
   const [openDiv, setOpenDiv] = useState({});
   const [showName, setShowName] = useState("");
@@ -32,6 +31,11 @@ export default function Page({ params }) {
   const [cardMessage, setCardMessage] = useState("");
   const [song, setSong] = useState("");
   const [showModal, setShowModal] = useState(false);
+  const [selectedSizeAmount, setSelectedSizeAmount] = useState("0");
+  const [selectedColorAmount, setSelectedColorAmount] = useState("0");
+  const [selectedAddOnsAmount, setSelectedAddOnsAmount] = useState(0);
+  const [isFormComplete, setIsFormComplete] = useState(false);
+
   const [formData, setFormData] = useState({});
   const toggleDiv = (key) => {
     setOpenDiv((prevState) => ({
@@ -58,6 +62,7 @@ export default function Page({ params }) {
       }
     }
   }
+
   const resetForm = () => {
     setSelectedOccasion("");
     setSelectedSize("");
@@ -134,10 +139,8 @@ export default function Page({ params }) {
 
       if (response.ok) {
         const responseData = await response.json();
-        setShowModal(true);
         console.log("Form data saved successfully!", responseData);
 
-        
         resetForm();
       } else {
         console.error("Failed to save form data.");
@@ -146,19 +149,86 @@ export default function Page({ params }) {
       console.error("Error saving form data:", error);
     }
   };
+  const handleCheckboxChange = (event, id) => {
+    // Get the ID of the checkbox from the 'id' attribute
+    const checkboxId = id;
+
+    // Create a copy of the current AddOns array
+    const updatedAddOns = [...AddOns];
+
+    if (event.target.checked) {
+      // If the checkbox is checked, add the AddOn to the array
+      updatedAddOns.push(selectedProduct.AddOns[id][0]);
+
+      // Calculate the price of the added AddOn and update the total
+      const addOnPrice = parseFloat(selectedProduct.AddOns[id][1]);
+      setSelectedAddOnsAmount((prevAmount) => prevAmount + addOnPrice);
+    } else {
+      // If the checkbox is unchecked, remove the AddOn from the array
+      const index = updatedAddOns.indexOf(selectedProduct.AddOns[id][0]);
+      if (index !== -1) {
+        updatedAddOns.splice(index, 1);
+
+        // Calculate the price of the removed AddOn and update the total
+        const addOnPrice = parseFloat(selectedProduct.AddOns[id][1]);
+        setSelectedAddOnsAmount((prevAmount) => prevAmount - addOnPrice);
+      }
+    }
+
+    // Update the state with the updated AddOns array
+    setAddOns(updatedAddOns);
+    const totalAddOnsPrice = updatedAddOns.reduce((total, addOn) => {
+      return total + parseFloat(addOn[1]); // Assuming the price is in index 1 of the AddOn array
+    }, 0);
+    const newOffPrice = (
+      parseFloat(selectedProduct.OriginalOffPrice) + totalAddOnsPrice
+    ).toFixed(2);
+
+    setFormData({
+      ...formData,
+      OffPrice: newOffPrice,
+    });
+  };
 
   const handleInputChange = (event) => {
     const { name, value, files } = event.target;
 
     switch (name) {
+      case "selectedSize":
+        setSelectedSize(value);
+
+        // Find the selected size info
+        const sizeInfo = selectedProduct.selectSize.find(
+          (sizeObj) => sizeObj.size === value
+        );
+
+        if (sizeInfo) {
+          // Update the selected size's amount
+          setSelectedSizeAmount(sizeInfo.amount);
+        } else {
+          // Handle the case where the selected size is not found
+          setSelectedSizeAmount("0");
+        }
+        break;
       case "selectedOccasion":
         setSelectedOccasion(value);
         break;
-      case "selectedSize":
-        setSelectedSize(value);
-        break;
+
       case "selectedColor":
         setSelectedColor(value);
+
+        // Find the selected color info
+        const colorInfo = selectedProduct.selectColor.find(
+          (colorObj) => colorObj.text === value
+        );
+
+        if (colorInfo) {
+          // Update the selected color's amount
+          setSelectedColorAmount(colorInfo.amount);
+        } else {
+          // Handle the case where the selected color is not found
+          setSelectedColorAmount("0");
+        }
         break;
       case "selectedAlphabet":
         setSelectedAlphabet(value);
@@ -200,6 +270,17 @@ export default function Page({ params }) {
       default:
         break;
     }
+    const requiredFields = [
+      showName,
+      singleName,
+      coupleName,
+      Message,
+    ];
+
+    const isComplete = requiredFields.some((field) => !!field);
+
+    // Update the state variable based on whether the form is complete
+    setIsFormComplete(isComplete);
 
     setFormData({
       ...formData,
@@ -209,33 +290,12 @@ export default function Page({ params }) {
     });
   };
 
-  const handleCheckboxChange = (event, id) => {
-    // Get the ID of the checkbox from the 'id' attribute
-    const checkboxId = id;
-
-    // Create a copy of the current AddOns array
-    const updatedAddOns = [...AddOns];
-
-    if (event.target.checked) {
-      // If the checkbox is checked, add the AddOn to the array
-      updatedAddOns.push(selectedProduct.AddOns[id]);
-    } else {
-      // If the checkbox is unchecked, remove the AddOn from the array
-      const index = updatedAddOns.indexOf(selectedProduct.AddOns[id]);
-      if (index !== -1) {
-        updatedAddOns.splice(index, 1);
-      }
-    }
-
-    // Update the state with the updated AddOns array
-    setAddOns(updatedAddOns);
-  };
-
   useEffect(() => {
     setFormData({
       ...formData,
       number, // Update the number field in formData
     });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [number]);
   //console.log(AddOns)
   // add to cart
@@ -255,14 +315,20 @@ export default function Page({ params }) {
   useEffect(() => {
     const cartData = getCartFromLocalStorage();
     dispatch({ type: "INITIALIZE_CART", payload: cartData });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // Handle adding the selected product to the cart
   const addToCart = () => {
+    const totalAmount =
+      parseFloat(selectedProduct.OffPrice) +
+      parseFloat(selectedSizeAmount) +
+      parseFloat(selectedColorAmount) +
+      parseFloat(selectedAddOnsAmount);
     const cartItem = {
       productId: selectedProduct.ProductId,
       name: selectedProduct.Name,
-      price: selectedProduct.OffPrice,
+      price: totalAmount.toFixed(2),
       // Add other product details as needed
       quantity: number,
       // Add other form data like selectedOccasion, selectedSize, etc.
@@ -276,6 +342,8 @@ export default function Page({ params }) {
 
     // Save the updated cart data to localStorage
     saveCartToLocalStorage(updatedCartData);
+    setShowModal(true);
+    resetForm();
   };
 
   // ... rest of your component code
@@ -302,7 +370,16 @@ export default function Page({ params }) {
             <h1 className={styles.itemName}>{selectedProduct.Name}</h1>
 
             <div className={styles.priceDetails}>
-              <div className={styles.offPrice}>{selectedProduct.OffPrice}</div>
+              <div className={styles.offPrice}>
+                ₹
+                {(
+                  parseFloat(selectedProduct.OffPrice) +
+                  parseFloat(selectedSizeAmount) +
+                  parseFloat(selectedColorAmount) +
+                  parseFloat(selectedAddOnsAmount)
+                ).toFixed(2)}
+              </div>
+
               <div className={styles.originalPrice}>
                 <del>{selectedProduct.OriginalPrice}</del>
               </div>
@@ -441,12 +518,10 @@ export default function Page({ params }) {
                         value={selectedSize}
                         onChange={handleInputChange}
                       >
-                        {selectedProduct.selectSize.map((ele, id) => (
-                          <>
-                            <option key={id} value={ele}>
-                              {ele}
-                            </option>
-                          </>
+                        {selectedProduct.selectSize.map((sizeObj, id) => (
+                          <option key={id} value={sizeObj.size}>
+                            {sizeObj.size}
+                          </option>
                         ))}
                       </Form.Select>
                     </>
@@ -464,12 +539,10 @@ export default function Page({ params }) {
                         value={selectedColor}
                         onChange={handleInputChange}
                       >
-                        {selectedProduct.selectColor.map((ele, id) => (
-                          <>
-                            <option key={id} value={ele}>
-                              {ele}
-                            </option>
-                          </>
+                        {selectedProduct.selectColor.map((color, id) => (
+                          <option key={id} value={color.text}>
+                            {color.text}
+                          </option>
                         ))}
                       </Form.Select>
                     </>
@@ -553,7 +626,7 @@ export default function Page({ params }) {
                             </div>
                             <div className={styles.addOnsText}>
                               {" "}
-                              {selectedProduct.AddOns[id]}
+                              {selectedProduct.AddOns[id][0]}
                             </div>
                           </div>
                         </>
@@ -654,11 +727,12 @@ export default function Page({ params }) {
                 <Row>
                   <Col md={6}>
                     <Button
-                      href="/cartProducts"
                       variant="danger"
+                      onClick={addToCart}
                       className={styles.addCart}
+                      disabled={!isFormComplete} // Disable the button if the form is not complete
                     >
-                      GO TO CART
+                      ADD TO CART
                     </Button>
                   </Col>
                   <Col md={6}>
@@ -666,7 +740,6 @@ export default function Page({ params }) {
                       type="submit"
                       variant="danger"
                       className={styles.buyButton}
-                      onClick={addToCart}
                     >
                       <span>
                         <AddShoppingCartIcon />

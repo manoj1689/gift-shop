@@ -11,38 +11,43 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Acrylic lamps product-1",
                 "OriginalPrice": "₹1000",
-                "OffPrice": "₹800",
+                "OffPrice": "800",
                 "Discount": "200 ₹ OFF",
                 "cashBack": "₹50",
                 "Tag": "Best Selling",
-                
                 "selectSize": [
-                    "Small(6x4 inch)",
-                    "Large(8x6)- ₹250"
+                    {
+                        "size": "Small(6x4 inch)",
+                        "amount": "0"
+                    },
+                    {
+                        "size": "Large(8x6)-₹ 250",
+                        "amount": "250"
+                    }
                 ],
                 "uploadPhoto": [
                     "Please Upload photo you Want to see on Lamp"
@@ -57,21 +62,30 @@
                     "Happy Valentine",
                     "Happy RakshaBandhan"
                 ],
-                
                 "AddSpeakers": [
-                    "I DON'T WANT",
-                    "I WANT -₹799"
+                    {
+                        "text": "I DON'T WANT",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "I WANT -₹799",
+                        "amount": "799"
+                    }
                 ],
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 89",
-                    "2": "Add Greeting Card + ₹ 149"
+                    "1": [
+                        "Gift wrap this item for + ₹ 89",
+                        "89"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 149",
+                        "149"
+                    ]
                 },
                 "selectColor": [],
                 "selectAlphabet": [],
                 "Message": "Small Message/Quote/Text",
-                
                 "cardMessage": "Enter Greeting Card Message- Only if Tick(which you want)",
-               
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
                 "Song": "",
                 "Description:": {
@@ -115,37 +129,43 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Acrylic lamps product-2",
                 "OriginalPrice": "₹1400",
-                "OffPrice": "₹699",
+                "OffPrice": "699",
                 "Discount": "₹701 OFF",
                 "cashBack": "₹80",
                 "Tag": "50% OFF",
                 "selectSize": [
-                    "Small(6x4 inch)",
-                    "Large(8x6)-₹ 299"
+                    {
+                        "size": "Small(6x4 inch)",
+                        "amount": "0"
+                    },
+                    {
+                        "size": "Large(8x6)-₹ 299",
+                        "amount": "299"
+                    }
                 ],
                 "ChooseColor": [
                     "WARM WHITE (SINGLE COLOR)",
@@ -154,7 +174,6 @@
                 "uploadPhoto": [
                     "Please Upload photo you Want to see on Lamp"
                 ],
-                
                 "selectOccasions": [
                     "Happy Birthday",
                     "Happy Married Life",
@@ -168,17 +187,27 @@
                 "selectColor": [],
                 "selectAlphabet": [],
                 "AddSpeakers": [
-                    "I DON'T WANT",
-                    "I WANT -₹799"
+                    {
+                        "text": "I DON'T WANT",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "I WANT -₹799",
+                        "amount": "799"
+                    }
                 ],
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 89",
-                    "2": "Add Greeting Card + ₹ 149"
+                    "1": [
+                        "Gift wrap this item for + ₹ 89",
+                        "89"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 149",
+                        "149"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
-               
                 "cardMessage": "Enter Greeting Card Message- Only if Tick(which you want)",
-                
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
                 "Song": "",
                 "Description:": {
@@ -225,38 +254,43 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Acrylic lamps product-3",
                 "OriginalPrice": "₹1999",
-                "OffPrice": "₹999",
+                "OffPrice": "999",
                 "Discount": "1000 ₹ OFF",
                 "cashBack": "₹100",
                 "Tag": "50% OFF",
-                
                 "selectSize": [
-                    "Small(6x4 inch)",
-                    "Large(8x6)-₹ 299"
+                    {
+                        "size": "Small(6x4 inch)",
+                        "amount": "0"
+                    },
+                    {
+                        "size": "Large(8x6)-₹ 299",
+                        "amount": "299"
+                    }
                 ],
                 "uploadPhoto": [
                     "Please Upload photo you Want to see on Lamp"
@@ -271,25 +305,39 @@
                     "Happy Valentine",
                     "Happy RakshaBandhan"
                 ],
-                
-                "showName":"Please Enter your name you want to see on lamp",
-               
+                "showName": "Please Enter your name you want to see on lamp",
                 "selectColor": [
-                    "WARM WHITE (SINGLE COLOR)",
-                    "MULTICOLOR WITH REMOTE EXTRA- ₹199"
+                    {
+                        "text": "WARM WHITE (SINGLE COLOR)",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "MULTICOLOR WITH REMOTE EXTRA- ₹199",
+                        "amount": "199"
+                    }
                 ],
                 "selectAlphabet": [],
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 89",
-                    "2": "Add Greeting Card + ₹ 149"
+                    "1": [
+                        "Gift wrap this item for + ₹ 89",
+                        "89"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 149",
+                        "149"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
-               
                 "cardMessage": "Enter Greeting Card Message- Only if Tick(which you want)",
-            
                 "AddSpeakers": [
-                    "I DON'T WANT",
-                    "I WANT -₹799"
+                    {
+                        "text": "I DON'T WANT",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "I WANT -₹799",
+                        "amount": "799"
+                    }
                 ],
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
                 "Song": "",
@@ -335,37 +383,43 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Acrylic lamps product-4",
                 "OriginalPrice": "₹1000",
-                "OffPrice": "₹599",
+                "OffPrice": "599",
                 "Discount": "₹401 OFF",
                 "cashBack": "₹60",
                 "Tag": "50% OFF",
                 "selectSize": [
-                    "Small(6x4 inch)",
-                    "Large(8x6)-₹ 299"
+                    {
+                        "size": "Small(6x4 inch)",
+                        "amount": "0"
+                    },
+                    {
+                        "size": "Large(8x6)-₹ 299",
+                        "amount": "299"
+                    }
                 ],
                 "uploadPhoto": [
                     "Please Upload photo you Want to see on Lamp"
@@ -380,24 +434,39 @@
                     "Happy Valentine",
                     "Happy RakshaBandhan"
                 ],
-              
-                "showName":"Please Enter your name you want to see on lamp",
+                "showName": "Please Enter your name you want to see on lamp",
                 "selectColor": [
-                    "WARM WHITE (SINGLE COLOR)",
-                    "MULTICOLOR WITH REMOTE EXTRA- ₹199"
+                    {
+                        "text": "WARM WHITE (SINGLE COLOR)",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "MULTICOLOR WITH REMOTE EXTRA- ₹199",
+                        "amount": "199"
+                    }
                 ],
                 "selectAlphabet": [],
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 89",
-                    "2": "Add Greeting Card + ₹ 149"
+                    "1": [
+                        "Gift wrap this item for + ₹ 89",
+                        "89"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 149",
+                        "149"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
-              
                 "cardMessage": "Enter Greeting Card Message- Only if Tick(which you want)",
-            
                 "AddSpeakers": [
-                    "I DON'T WANT",
-                    "I WANT -₹799"
+                    {
+                        "text": "I DON'T WANT",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "I WANT -₹799",
+                        "amount": "799"
+                    }
                 ],
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
                 "Song": "",
@@ -444,37 +513,43 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Acrylic lamps product-5",
                 "OriginalPrice": "₹1000",
-                "OffPrice": "₹800",
+                "OffPrice": "800",
                 "Discount": "200 ₹ OFF",
                 "cashBack": "₹50",
                 "Tag": "Best Selling",
                 "selectSize": [
-                    "Small(6x4 inch)",
-                    "Large(8x6)- ₹250"
+                    {
+                        "size": "Small(6x4 inch)",
+                        "amount": "0"
+                    },
+                    {
+                        "size": "Large(8x6)- ₹250",
+                        "amount": "250"
+                    }
                 ],
                 "uploadPhoto": [
                     "Please Upload photo you Want to see on Lamp"
@@ -489,21 +564,30 @@
                     "Happy Valentine",
                     "Happy RakshaBandhan"
                 ],
-                
                 "AddSpeakers": [
-                    "I DON'T WANT",
-                    "I WANT -₹799"
+                    {
+                        "text": "I DON'T WANT",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "I WANT -₹799",
+                        "amount": "799"
+                    }
                 ],
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 89",
-                    "2": "Add Greeting Card + ₹ 149"
+                    "1": [
+                        "Gift wrap this item for + ₹ 89",
+                        "89"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 149",
+                        "149"
+                    ]
                 },
                 "selectColor": [],
                 "selectAlphabet": [],
                 "Message": "Small Message/Quote/Text",
-              
                 "cardMessage": "Enter Greeting Card Message- Only if Tick(which you want)",
-               
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
                 "Song": "",
                 "Description:": {
@@ -547,46 +631,57 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Acrylic lamps product-6",
                 "OriginalPrice": "₹1400",
-                "OffPrice": "₹699",
+                "OffPrice": "699",
                 "Discount": "₹701 OFF",
                 "cashBack": "₹80",
                 "Tag": "50% OFF",
                 "selectSize": [
-                    "Small(6x4 inch)",
-                    "Large(8x6)-₹ 299"
+                    {
+                        "size": "Small(6x4 inch)",
+                        "amount": "0"
+                    },
+                    {
+                        "size": "Large(8x6)-₹ 299",
+                        "amount": "299"
+                    }
                 ],
                 "selectColor": [
-                    "WARM WHITE (SINGLE COLOR)",
-                    "MULTICOLOR WITH REMOTE EXTRA- ₹199"
+                    {
+                        "text": "WARM WHITE (SINGLE COLOR)",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "MULTICOLOR WITH REMOTE EXTRA- ₹199",
+                        "amount": "199"
+                    }
                 ],
                 "uploadPhoto": [
                     "Please Upload photo you Want to see on Lamp"
                 ],
-              
                 "selectOccasions": [
                     "Happy Birthday",
                     "Happy Married Life",
@@ -597,20 +692,29 @@
                     "Happy Valentine",
                     "Happy RakshaBandhan"
                 ],
-              
                 "selectAlphabet": [],
                 "AddSpeakers": [
-                    "I DON'T WANT",
-                    "I WANT -₹799"
+                    {
+                        "text": "I DON'T WANT",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "I WANT -₹799",
+                        "amount": "799"
+                    }
                 ],
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 89",
-                    "2": "Add Greeting Card + ₹ 149"
+                    "1": [
+                        "Gift wrap this item for + ₹ 89",
+                        "89"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 149",
+                        "149"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
-                
                 "cardMessage": "Enter Greeting Card Message- Only if Tick(which you want)",
-             
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
                 "Song": "",
                 "Description:": {
@@ -657,37 +761,43 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Acrylic lamps product-7",
                 "OriginalPrice": "₹1999",
-                "OffPrice": "₹999",
+                "OffPrice": "999",
                 "Discount": "1000 ₹ OFF",
                 "cashBack": "₹100",
                 "Tag": "50% OFF",
                 "selectSize": [
-                    "Small(6x4 inch)",
-                    "Large(8x6)-₹ 299"
+                    {
+                        "size": "Small(6x4 inch)",
+                        "amount": "0"
+                    },
+                    {
+                        "size": "Large(8x6)-₹ 299",
+                        "amount": "299"
+                    }
                 ],
                 "uploadPhoto": [
                     "Please Upload photo you Want to see on Lamp"
@@ -706,21 +816,37 @@
                     "Please Enter your name you want to see on lamp"
                 ],
                 "selectColor": [
-                    "WARM WHITE (SINGLE COLOR)",
-                    "MULTICOLOR WITH REMOTE EXTRA- ₹199"
+                    {
+                        "text": "WARM WHITE (SINGLE COLOR)",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "MULTICOLOR WITH REMOTE EXTRA- ₹199",
+                        "amount": "199"
+                    }
                 ],
                 "selectAlphabet": [],
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 89",
-                    "2": "Add Greeting Card + ₹ 149"
+                    "1": [
+                        "Gift wrap this item for + ₹ 89",
+                        "89"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 149",
+                        "149"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
-           
                 "cardMessage": "Enter Greeting Card Message- Only if Tick(which you want)",
-              
                 "AddSpeakers": [
-                    "I DON'T WANT",
-                    "I WANT -₹799"
+                    {
+                        "text": "I DON'T WANT",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "I WANT -₹799",
+                        "amount": "799"
+                    }
                 ],
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
                 "Song": "",
@@ -766,37 +892,43 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Acrylic lamps product-8",
                 "OriginalPrice": "₹1000",
-                "OffPrice": "₹599",
+                "OffPrice": "599",
                 "Discount": "₹401 OFF",
                 "cashBack": "₹60",
                 "Tag": "50% OFF",
                 "selectSize": [
-                    "Small(6x4 inch)",
-                    "Large(8x6)-₹ 299"
+                    {
+                        "size": "Small(6x4 inch)",
+                        "amount": "0"
+                    },
+                    {
+                        "size": "Large(8x6)-₹ 299",
+                        "amount": "299"
+                    }
                 ],
                 "uploadPhoto": [
                     "Please Upload photo you Want to see on Lamp"
@@ -812,28 +944,42 @@
                     "Happy RakshaBandhan"
                 ],
                 "showName": "Enter Your Name -1(Which you want on lamp)",
-                "singleName":"Enter Your Name -2(Which you want on lamp)",
-                
+                "singleName": "Enter Your Name -2(Which you want on lamp)",
                 "selectColor": [
-                    "WARM WHITE (SINGLE COLOR)",
-                    "MULTICOLOR WITH REMOTE EXTRA- ₹199"
+                    {
+                        "text": "WARM WHITE (SINGLE COLOR)",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "MULTICOLOR WITH REMOTE EXTRA- ₹199",
+                        "amount": "199"
+                    }
                 ],
                 "selectAlphabet": [],
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 89",
-                    "2": "Add Greeting Card + ₹ 149"
+                    "1": [
+                        "Gift wrap this item for + ₹ 89",
+                        "89"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 149",
+                        "149"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
-                
                 "cardMessage": "Enter Greeting Card Message- Only if Tick(which you want)",
-                
                 "AddSpeakers": [
-                    "I DON'T WANT",
-                    "I WANT -₹799"
+                    {
+                        "text": "I DON'T WANT",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "I WANT -₹799",
+                        "amount": "799"
+                    }
                 ],
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
                 "Song": "",
-                
                 "Description:": {
                     "Short Description": [
                         "* How to use: In box you will receive a Customized PhotoVelvet Shadow Box with Multicolor Electric Night Lamp And Power Adapter ",
@@ -883,42 +1029,53 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "shadow box product-1",
                 "OriginalPrice": "₹1699",
-                "OffPrice": "₹899",
+                "OffPrice": "899",
                 "Discount": "₹801 OFF",
                 "cashBack": "₹60",
                 "Tag": "50% OFF",
-                
                 "selectSize": [
-                    "Size : 12 Height X 12 Length X 12 Width Centimeter",
-                    "Size : 15 Height X 15 Length X 15 Width Centimeter Extra - ₹400"
+                    {
+                        "size": "Size : 12 Height X 12 Length X 12 Width Centimeter",
+                        "amount": "0"
+                    },
+                    {
+                        "size": "Size : 15 Height X 15 Length X 15 Width Centimeter Extra - ₹400",
+                        "amount": "400"
+                    }
                 ],
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ]
                 },
                 "uploadCardPhoto": "Upload Greeting Card Photo ( For Greeting Card )",
                 "uploadPhotosSpeaker": "Upload Photo -1( For Bluetooth Speaker,which you want to see on Bluetooth Speaker )",
@@ -963,42 +1120,54 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "shadow box product-2",
                 "OriginalPrice": "₹1799",
-                "OffPrice": "₹1499",
+                "OffPrice": "1499",
                 "Discount": "300 ₹ OFF",
                 "cashBack": "₹80",
                 "Tag": "Your Photo Here",
                 "showName": "Enter Your Names Show On Top Of The Lid",
                 "selectSize": [
-                    "Size : 12 Height X 12 Length X 12 Width Centimeter",
-                    "Size : 15 Height X 15 Length X 15 Width Centimeter Extra - ₹400"
+                    {
+                        "size": "Size : 12 Height X 12 Length X 12 Width Centimeter",
+                        "amount": "0"
+                    },
+                    {
+                        "size": "Size : 15 Height X 15 Length X 15 Width Centimeter Extra - ₹400",
+                        "amount": "400"
+                    }
                 ],
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ]
                 },
                 "uploadCardPhoto": "Upload Greeting Card Photo ( For Greeting Card )",
                 "uploadPhotosSpeaker": "Upload Photo -1( For Bluetooth Speaker,which you want to see on Bluetooth Speaker )",
@@ -1022,7 +1191,6 @@
                         "Shadow Box,Power Adapter."
                     ],
                     "Care Instructions": [
-                       
                         "* Clean with wet wipes",
                         "* Do not use excess water while cleaning. "
                     ],
@@ -1045,44 +1213,56 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "shadow box product-3",
                 "OriginalPrice": "₹1299",
-                "OffPrice": "₹1099",
+                "OffPrice": "1099",
                 "Discount": "200 ₹ OFF",
                 "Tag": "Best Selling",
                 "cashBack": "₹60",
                 "showName": "Enter Your Names Show On Top Of The Lid",
                 "selectSize": [
-                    "Size : 12 Height X 12 Length X 12 Width Centimeter",
-                    "Size : 15 Height X 15 Length X 15 Width Centimeter Extra - ₹400"
+                    {
+                        "size": "Size : 12 Height X 12 Length X 12 Width Centimeter",
+                        "amount": "0"
+                    },
+                    {
+                        "size": "Size : 15 Height X 15 Length X 15 Width Centimeter Extra - ₹400",
+                        "amount": "400"
+                    }
                 ],
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ]
                 },
-                "uploadCardPhoto":"Upload Greeting Card Photo ( For Greeting Card )",
+                "uploadCardPhoto": "Upload Greeting Card Photo ( For Greeting Card )",
                 "uploadPhotosSpeaker": "Upload Photos -( For Bluetooth Speaker,which you want to see on Bluetooth Speaker )",
                 "Description:": {
                     "Short Description": [
@@ -1126,42 +1306,54 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "shadow box product-4",
                 "OriginalPrice": "₹2299",
-                "OffPrice": "₹2099",
+                "OffPrice": "2099",
                 "Discount": "200 ₹ OFF",
                 "Tag": "Best Selling",
                 "cashBack": "₹60",
                 "showName": "Enter Your Names Show On Top Of The Lid",
                 "selectSize": [
-                    "Size : 12 Height X 12 Length X 12 Width Centimeter",
-                    "Size : 15 Height X 15 Length X 15 Width Centimeter Extra - ₹400"
+                    {
+                        "size": "Size : 12 Height X 12 Length X 12 Width Centimeter",
+                        "amount": "0"
+                    },
+                    {
+                        "size": "Size : 15 Height X 15 Length X 15 Width Centimeter Extra - ₹400",
+                        "amount": "400"
+                    }
                 ],
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ]
                 },
                 "uploadCardPhoto": "Upload Greeting Card Photo ( For Greeting Card )",
                 "uploadPhotosSpeaker": "Upload Photo -1( For Bluetooth Speaker,which you want to see on Bluetooth Speaker )",
@@ -1214,47 +1406,64 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Name Board product-1",
                 "OriginalPrice": "Rs.1699",
-                "OffPrice": "Rs999",
-                "Discount": "Rs600 OFF",
+                "OffPrice": "999",
+                "Discount": "600 ₹ OFF",
                 "Tag": "Best Selling",
-                "cashBack":"₹100",
-                
+                "cashBack": "₹100",
                 "selectColor": [
-                    "WARM WHITE (SINGLE COLOR)",
-                    "WARM WHITE (SINGLE COLOR)"
+                    {
+                        "text": "WARM WHITE (SINGLE COLOR)",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "MULTICOLOR WITH REMOTE EXTRA- ₹199",
+                        "amount": "199"
+                    }
                 ],
-                "showName":"Enter Your Name want to see on Board",
+                "showName": "Enter Your Name want to see on Board",
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ]
                 },
                 "AddSpeaker": [
-                    "I DON'T WANT",
-                    "MULTICOLOR WITH REMOTE EXTRA- ₹300"
+                    {
+                        "text": "I DON'T WANT",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "MULTICOLOR WITH REMOTE EXTRA- ₹300",
+                        "amount": "300"
+                    }
                 ],
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
                 "Description:": {
@@ -1296,44 +1505,56 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Name Board product-2",
                 "OriginalPrice": "₹1799",
-                "OffPrice": "₹1299",
+                "OffPrice": "1299",
                 "Discount": "₹500 OFF",
                 "Tag": "Best Selling",
-                "cashBack":"₹60",
+                "cashBack": "₹60",
                 "showName": "Enter name 1",
-                "singleName":"Enter name 2",
+                "singleName": "Enter name 2",
                 "Message": "Small Message/Quote/Text",
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ]
                 },
                 "AddSpeaker": [
-                    "I DON'T WANT",
-                    "I WANT - ₹799"
+                    {
+                        "text": "I DON'T WANT",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "I WANT -₹799",
+                        "amount": "799"
+                    }
                 ],
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
                 "Description:": {
@@ -1375,43 +1596,57 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Name Board product-3",
                 "OriginalPrice": "₹1199",
-                "OffPrice": "₹999",
+                "OffPrice": "999",
                 "Discount": "₹200 OFF",
                 "Tag": "Best Selling",
-                "cashBack":"₹50",
-                
+                "cashBack": "₹50",
                 "selectColor": [
-                    "WARM WHITE (SINGLE COLOR)",
-                    "WARM WHITE (SINGLE COLOR)"
+                    {
+                        "text": "WARM WHITE (SINGLE COLOR)",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "MULTICOLOR WITH REMOTE EXTRA- ₹199",
+                        "amount": "199"
+                    }
                 ],
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200",
-                    "3": "Add Bluetooth Speaker + ₹ 999"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ],
+                    "3": [
+                        "Add Bluetooth Speaker + ₹ 999",
+                        "999"
+                    ]
                 },
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
                 "Description:": {
@@ -1454,38 +1689,43 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Name Board product-4",
                 "OriginalPrice": "₹1699",
-                "OffPrice": "₹1299",
+                "OffPrice": "1299",
                 "Discount": "₹400 OFF",
                 "Tag": "Trending",
-                "cashBack":"₹100", 
-                
+                "cashBack": "₹100",
                 "selectSize": [
-                    "Size : 10 Height X 10 Length Inches",
-                    "Size : 16 Height X 16 Length Inches Extra- ₹500"
+                    {
+                        "size": "Size : 10 Height X 10 Length Inches",
+                        "amount": "0"
+                    },
+                    {
+                        "size": "Size : 16 Height X 16 Length Inches Extra- ₹500",
+                        "amount": "500"
+                    }
                 ],
                 "selectAlphabet": [
                     "A",
@@ -1514,18 +1754,22 @@
                     "X",
                     "Y",
                     "Z"
-                ], 
-                
+                ],
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ]
                 },
                 "AddSpeaker": [
                     "I DON'T WANT",
                     "MULTICOLOR WITH REMOTE EXTRA- ₹300"
                 ],
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
-               
                 "Description:": {
                     "Short Description": [
                         "* How to use: In box you will receive Wooden Name Board With Customized Photos and Alphabet & Power Adapter. ",
@@ -1572,46 +1816,56 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Clock product-1",
                 "OriginalPrice": "₹3499",
-                "OffPrice": "₹2499",
+                "OffPrice": "2499",
                 "Discount": "1000 ₹ OFF",
                 "Tag": "Recent",
-                "cashBack":"₹80",
-                
+                "cashBack": "₹80",
                 "selectSize": [
-                    "Size : 16 Height X 16 Length Inches",
-                    "Size : 20 Height X 20 Length Inches Extra- ₹500"
+                    {
+                        "size": "Size : 16 Height X 16 Length Inches",
+                        "amount": "0"
+                    },
+                    {
+                        "size": "Size : 20 Height X 20 Length Inches Extra- ₹500",
+                        "amount": "500"
+                    }
                 ],
                 "uploadPhoto": "Upload Photo -(For Clock , which you want to see on Clock)",
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 0",
-                    "2": "Add Greeting Card + ₹ 0"
+                    "1": [
+                        "Gift wrap this item",
+                        "0"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 100",
+                        "100"
+                    ]
                 },
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
-               
                 "Description:": {
                     "Product Description": [
                         "* Gift for any occasion",
@@ -1646,42 +1900,46 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Clock product-2",
                 "OriginalPrice": "₹2199",
-                "OffPrice": "₹1499",
+                "OffPrice": "1499",
                 "Discount": "₹700 OFF",
                 "Tag": "Best Selling",
-                "cashBack":"₹40",
-             
+                "cashBack": "₹40",
                 "uploadPhoto": "Upload Photo -(For Clock , which you want to see on Clock)",
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ]
                 },
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
-                
                 "Description:": {
                     "Product Description": [
                         "* Best couple gift",
@@ -1716,46 +1974,56 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Clock product-3",
                 "OriginalPrice": "₹1299",
-                "OffPrice": "₹799",
+                "OffPrice": "799",
                 "Discount": "500 ₹ OFF",
                 "Tag": "Your Photo Here",
-                "cashBack":"₹50",
-               
+                "cashBack": "₹50",
                 "selectSize": [
-                    "Size : 8 Height X 8 Length Inches",
-                    "Size : 10 Height X 10 Length Inches Extra- ₹200"
+                    {
+                        "size": "Size : 8 Height X 8 Length Inches",
+                        "amount": "0"
+                    },
+                    {
+                        "size": "Size : 10 Height X 10 Length Inches Extra- ₹200",
+                        "amount": "200"
+                    }
                 ],
                 "uploadPhoto": "Upload Photo -(For Clock , which you want to see on Clock)",
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ]
                 },
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
-               
                 "Description:": {
                     "Product Description": [
                         "* Gift for any occasion",
@@ -1790,46 +2058,56 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Clock product-4",
                 "OriginalPrice": "₹2199",
-                "OffPrice": "₹1199",
+                "OffPrice": "1199",
                 "Discount": "₹1000 OFF",
                 "Tag": "Recent",
-                "cashBack":"₹120",
-                
+                "cashBack": "₹120",
                 "selectSize": [
-                    "Size : 15.5  Height X 15.5 Length Inches",
-                    "Size : 20 Height X 20 Length Inches Extra- ₹300"
+                    {
+                        "size": "Size : 15.5  Height X 15.5 Length Inches",
+                        "amount": "0"
+                    },
+                    {
+                        "size": "Size : 20 Height X 20 Length Inches Extra- ₹300",
+                        "amount": "300"
+                    }
                 ],
                 "uploadPhoto": "Upload Photo -(For Clock , which you want to see on Clock)",
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 0",
-                    "2": "Add Greeting Card + ₹ 0"
+                    "1": [
+                        "Gift wrap this item for + ₹ 0",
+                        "0"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 0",
+                        "0"
+                    ]
                 },
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
-               
                 "Description:": {
                     "Product Description": [
                         "* Gift for any occasion",
@@ -1871,45 +2149,50 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Table Gifts product-1",
                 "OriginalPrice": "₹1599",
-                "OffPrice": "₹799",
+                "OffPrice": "799",
                 "Discount": "₹800 OFF",
                 "Tag": "50% OFF",
-                "cashBack":"₹40",
-                
-                "showName":"Enter Your Name",
-                "year":"Enter Your Year",
-                "date":"Enter Your Date",
+                "cashBack": "₹40",
+                "showName": "Enter Your Name",
+                "year": "Enter Your Year",
+                "date": "Enter Your Date",
                 "selectOccasions": [
                     "Happy Birthday",
                     "Happy Anniversary"
                 ],
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
@@ -1947,44 +2230,50 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Table Gifts product-2",
                 "OriginalPrice": "₹1099",
-                "OffPrice": "₹550",
+                "OffPrice": "550",
                 "Discount": "₹500 OFF",
                 "Tag": "50% OFF",
-                "cashBack":"₹120",
-                "showName":"Enter Your Name",
-                "year":"Enter Your Year",
-                "date":"Enter Your Date",
+                "cashBack": "₹120",
+                "showName": "Enter Your Name",
+                "year": "Enter Your Year",
+                "date": "Enter Your Date",
                 "selectOccasions": [
                     "Happy Birthday",
                     "Happy Anniversary"
                 ],
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
@@ -2022,44 +2311,50 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Table Gifts product-3",
                 "OriginalPrice": "₹1599",
-                "OffPrice": "₹799",
+                "OffPrice": "799",
                 "Discount": "₹800 OFF",
                 "Tag": "50% OFF",
-                "cashBack":"₹60",
-                "showName":"Enter Your Name",
-                "year":"Enter Your Year",
-                "date":"Enter Your Date",
+                "cashBack": "₹60",
+                "showName": "Enter Your Name",
+                "year": "Enter Your Year",
+                "date": "Enter Your Date",
                 "selectOccasions": [
                     "Happy Birthday",
                     "Happy Anniversary"
                 ],
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
@@ -2097,34 +2392,34 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Table Gifts product-4",
                 "OriginalPrice": "₹1599",
-                "OffPrice": "₹799",
+                "OffPrice": "799",
                 "Discount": "₹800 OFF",
                 "Tag": "50% OFF",
-                "cashBack":"₹50",
+                "cashBack": "₹50",
                 "selectOccasions": [
                     "Happy Birthday",
                     "Happy Married Life",
@@ -2136,8 +2431,14 @@
                     "Happy RakshaBandhan"
                 ],
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
@@ -2182,42 +2483,60 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Neon Light product-1",
                 "OriginalPrice": "₹3499",
-                "OffPrice": "₹2999",
+                "OffPrice": "2999",
                 "Discount": "₹500 OFF",
-                "cashBack":"₹100",
+                "cashBack": "₹100",
                 "Tag": "Recent",
                 "showName": "Enter Your Names/Quote/Text",
                 "selectSize": [
-                    "12X18 INCH - Upto 6 Alphabets ONLY!",
-                    "12X24 INCH - Upto 8 Alphabets EXTRA - ₹1000",
-                    "12X36 INCH - Upto 16 Alphabets EXTRA - ₹4500",
-                    "20X20 INCH - Upto 16 Alphabets EXTRA - ₹4500",
-                    "12X48 INCH - Upto 20 Alphabets EXTRA - ₹9500",
-                    "24X24 INCH - Upto 20 Alphabets EXTRA - ₹9500"
+                    {
+                        "size": "12X18 INCH - Upto 6 Alphabets ONLY!",
+                        "amount": "0"
+                    },
+                    {
+                        "size": "12X24 INCH - Upto 8 Alphabets EXTRA - ₹1000",
+                        "amount": "1000"
+                    },
+                    {
+                        "size": "12X36 INCH - Upto 16 Alphabets EXTRA - ₹4500",
+                        "amount": "4500"
+                    },
+                    {
+                        "size": "20X20 INCH - Upto 16 Alphabets EXTRA - ₹4500",
+                        "amount": "4500"
+                    },
+                    {
+                        "size": "12X48 INCH - Upto 20 Alphabets EXTRA - ₹9500",
+                        "amount": "9500"
+                    },
+                    {
+                        "size": "24X24 INCH - Upto 20 Alphabets EXTRA - ₹9500",
+                        "amount": "9500"
+                    }
                 ],
                 "selectColor": [
                     "Ice Blue",
@@ -2228,8 +2547,14 @@
                     "Red"
                 ],
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
                 "UploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
@@ -2265,40 +2590,49 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Neon Light product-2",
                 "OriginalPrice": "₹3499",
-                "OffPrice": "₹2999",
+                "OffPrice": "2999",
                 "Discount": "500 ₹ OFF",
                 "Tag": "Recent",
-                "cashBack":"₹80",
-                "singleName":"Single Name",
-                "coupleName":"Couple Name",
+                "cashBack": "₹80",
+                "singleName": "Single Name",
+                "coupleName": "Couple Name",
                 "selectSize": [
-                    "12X12 INCH ",
-                    "12X18 INCH - EXTRA - ₹500",
-                    "12X20 INCH - EXTRA - ₹600"
+                    {
+                        "size": "12X12 INCH ",
+                        "amount": "0"
+                    },
+                    {
+                        "size": "12X18 INCH - EXTRA - ₹500",
+                        "amount": "500"
+                    },
+                    {
+                        "size": "12X20 INCH - EXTRA - ₹600",
+                        "amount": "600"
+                    }
                 ],
                 "selectColor": [
                     "Ice Blue",
@@ -2309,9 +2643,18 @@
                     "Red"
                 ],
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200",
-                    "3": "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ],
+                    "3": [
+                        "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999",
+                        "999"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
                 "UploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
@@ -2356,34 +2699,34 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Neon Light product-3",
                 "OriginalPrice": "₹19000",
-                "OffPrice": "₹18000",
+                "OffPrice": "18000",
                 "Discount": "1000 ₹ OFF",
                 "Tag": "Recent",
-                "cashBack":"₹100",
+                "cashBack": "₹100",
                 "showName": "Enter Your Names/Quote/Text",
                 "selectColor1": [
                     "Ice Blue",
@@ -2402,9 +2745,18 @@
                     "Red"
                 ],
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200",
-                    "3": "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ],
+                    "3": [
+                        "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999",
+                        "999"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
                 "UploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
@@ -2446,39 +2798,48 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Neon Light product-4",
                 "OriginalPrice": "₹4000",
-                "OffPrice": "₹3500",
+                "OffPrice": "3500",
                 "Discount": "₹500 OFF",
                 "Tag": "Recent",
-                "cashBack":"₹140",
+                "cashBack": "₹140",
                 "showName": "Enter Your Names/Quote/Text",
                 "selectSize": [
-                    "Size : 12 Height X 12 Length Inches",
-                    "Size : 16 Height X 16 Length Inches Extra- ₹1500",
-                    "Size : 20 Height X 20 Length Inches Extra- ₹2000"
+                    {
+                        "size": "Size : 12 Height X 12 Length Inches",
+                        "amount": "0"
+                    },
+                    {
+                        "size": "Size : 16 Height X 16 Length Inches Extra- ₹1500",
+                        "amount": "1500"
+                    },
+                    {
+                        "size": "Size : 20 Height X 20 Length Inches Extra- ₹2000",
+                        "amount": "2000"
+                    }
                 ],
                 "selectAlphabet": [
                     "A",
@@ -2509,9 +2870,18 @@
                     "Z"
                 ],
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200",
-                    "3": "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ],
+                    "3": [
+                        "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999",
+                        "999"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
                 "UploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
@@ -2560,44 +2930,52 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Rotating Lamp product-1",
                 "OriginalPrice": "₹1500",
-                "OffPrice": "₹1200",
+                "OffPrice": "1200",
                 "Discount": "₹300 OFF",
                 "Tag": "Recent",
-                "cashBack":"₹120",
+                "cashBack": "₹120",
                 "uploadPhoto": "For Rotating Lamp, which you want to see on Rotating Lamp",
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200",
-                    "3": "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ],
+                    "3": [
+                        "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999",
+                        "999"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
                 "uploadCardPhoto": "Upload Greeting Card Photo ( For Greeting Card )",
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
-               
                 "Description:": {
                     "Short Description": [
                         " * How to use: In box you will receive Rotating Light Lamp and metal bottom part and a cover on it You Just Have to put  your Lamp on bottom part and plug in the charger and that’s it.",
@@ -2637,45 +3015,52 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Rotating Lamp product-2",
                 "OriginalPrice": "₹1500",
-                "OffPrice": "₹1200",
+                "OffPrice": "1200",
                 "Discount": "300 ₹ OFF",
                 "Tag": "Recent",
-                "cashBack":"₹50",
+                "cashBack": "₹50",
                 "uploadPhoto": "For Rotating Lamp, which you want to see on Rotating Lamp",
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200",
-                    "3": "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ],
+                    "3": [
+                        "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999",
+                        "999"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
                 "uploadCardPhoto": "Upload Greeting Card Photo ( For Greeting Card )",
-                
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
-                
                 "Description:": {
                     "Short Description": [
                         " * How to use: In box you will receive Rotating Light Lamp and metal bottom part and a cover on it You Just Have to put  your Lamp on bottom part and plug in the charger and that’s it.",
@@ -2715,44 +3100,52 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Rotating Lamp product-3",
                 "OriginalPrice": "₹1500",
-                "OffPrice": "₹1200",
+                "OffPrice": "1200",
                 "Discount": "300 ₹ OFF",
                 "Tag": "Recent",
-                "cashBack":"₹80",
+                "cashBack": "₹80",
                 "uploadPhoto": "For Rotating Lamp, which you want to see on Rotating Lamp",
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200",
-                    "3": "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ],
+                    "3": [
+                        "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999",
+                        "999"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
                 "uploadCardPhoto": "Upload Greeting Card Photo ( For Greeting Card )",
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
-               
                 "Description:": {
                     "Short Description": [
                         " * How to use: In box you will receive Rotating Light Lamp and metal bottom part and a cover on it You Just Have to put  your Lamp on bottom part and plug in the charger and that’s it.",
@@ -2792,45 +3185,52 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Rotating Lamp product-4",
                 "OriginalPrice": "₹1000",
-                "OffPrice": "₹700",
+                "OffPrice": "700",
                 "Discount": "300 ₹ OFF",
                 "Tag": "Best Selling",
-                "cashBack":"₹100",
+                "cashBack": "₹100",
                 "uploadPhoto": "For Rotating Lamp, which you want to see on Rotating Lamp",
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200",
-                    "3": "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ],
+                    "3": [
+                        "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999",
+                        "999"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
                 "uploadCardPhoto": "Upload Greeting Card Photo ( For Greeting Card )",
-               
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
-               
                 "Description:": {
                     "Short Description": [
                         " * How to use: In box you will receive Rotating Light Lamp and metal bottom part and a cover on it You Just Have to put  your Lamp on bottom part and plug in the charger and that’s it.",
@@ -2877,50 +3277,66 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Wooden Engraved product-1",
                 "OriginalPrice": "₹1199",
-                "OffPrice": "₹599",
+                "OffPrice": "599",
                 "Discount": "600 ₹ OFF",
                 "Tag": "Best Selling",
-                "cashBack":"₹80",
+                "cashBack": "₹80",
                 "selectSize": [
-                    "Size : A4 (11.7 Height X 8.3 Length Inches)",
-                    "Size : A3 (16.5 Height X 11.7 Length Inches) Extra- ₹400"
+                    {
+                        "size": "Size : A4 (11.7 Height X 8.3 Length Inches)",
+                        "amount": "0"
+                    },
+                    {
+                        "size": "Size : A3 (16.5 Height X 11.7 Length Inches) Extra- ₹400",
+                        "amount": "400"
+                    }
                 ],
                 "uploadPhoto": "For Frame , which you want to see on Frame",
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200",
-                    "3": "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999",
-                    "4": "Add Golden Rose + ₹ 349"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ],
+                    "3": [
+                        "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999",
+                        "999"
+                    ],
+                    "4": [
+                        "Add Golden Rose + ₹ 349",
+                        "349"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
                 "uploadCardPhoto": "Upload Greeting Card Photo ( For Greeting Card )",
-               
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
-                
                 "Description:": {
                     "Short Description": [
                         "* How to use: In Box You Will Receive Personalized Computerized Photo Frame.",
@@ -2959,34 +3375,34 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Wooden Engraved product-2",
                 "OriginalPrice": "₹799",
-                "OffPrice": "₹599",
+                "OffPrice": "599",
                 "Discount": "200 ₹ OFF",
                 "Tag": "Recent",
-                "cashBack":"₹30",
+                "cashBack": "₹30",
                 "selectOccasions": [
                     "Happy Birthday",
                     "Happy Married Life",
@@ -2998,15 +3414,26 @@
                     "Happy RakshaBandhan"
                 ],
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200",
-                    "3": "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999",
-                    "4": "Add Golden Rose + ₹ 349"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ],
+                    "3": [
+                        "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999",
+                        "999"
+                    ],
+                    "4": [
+                        "Add Golden Rose + ₹ 349",
+                        "349"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
                 "uploadCardPhoto": "Upload Frame  Photos ( For Frame  )",
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
-              
                 "Description:": {
                     "Short Description": [
                         "* How to use: In Box You Will Receive Customized Multi Photo Heart Frame 12 Photos. ",
@@ -3046,46 +3473,57 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Wooden Engraved product-3",
                 "OriginalPrice": "₹599",
-                "OffPrice": "₹499",
+                "OffPrice": "499",
                 "Discount": "100 ₹ OFF",
                 "Tag": "Recent",
-                "cashBack":"₹40",
+                "cashBack": "₹40",
                 "showName": "Enter Your Names/Quote/Text",
-                "date":"Enter Your Date",
+                "date": "Enter Your Date",
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200",
-                    "3": "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999",
-                    "4": "Add Golden Rose + ₹ 349"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ],
+                    "3": [
+                        "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999",
+                        "999"
+                    ],
+                    "4": [
+                        "Add Golden Rose + ₹ 349",
+                        "349"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
                 "uploadCardPhoto": "Upload Frame  Photos ( For Frame  )",
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
-                
                 "Description:": {
                     "Short Description": [
                         "* How to use: In Box You Will Receive Customized Multi Photo Heart Frame 12 Photos. ",
@@ -3125,43 +3563,55 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Wooden Engraved product-4",
                 "OriginalPrice": "₹699",
-                "OffPrice": "₹599",
+                "OffPrice": "599",
                 "Discount": "100 ₹ OFF",
                 "Tag": "Best Selling",
-                "cashBack":"₹50",
+                "cashBack": "₹50",
                 "uploadCardPhoto": "(For Frame , which you want to see on Frame)",
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200",
-                    "3": "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999",
-                    "4": "Add Golden Rose + ₹ 349"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ],
+                    "3": [
+                        "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999",
+                        "999"
+                    ],
+                    "4": [
+                        "Add Golden Rose + ₹ 349",
+                        "349"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
-                "uploadPhotosSpeaker":"For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
+                "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
                 "Description:": {
                     "Short Description": [
                         "* How to use: In Box You Will Receive Customized Multi Photo Heart Frame 12 Photos. ",
@@ -3208,40 +3658,49 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Wall Hanging product-1",
                 "OriginalPrice": "₹2000",
-                "OffPrice": "₹1599",
+                "OffPrice": "1599",
                 "Discount": "401 ₹ OFF",
                 "Tag": "Recent",
-                "cashBack":"₹200",
+                "cashBack": "₹200",
                 "coupleName": "Couple Name",
-                "singleName":"Single Name ",
+                "singleName": "Single Name ",
                 "selectSize": [
-                    "Size : 12 Height X 12 Length Inches",
-                    "Size : 16 Height X 16 Length Inches Extra- ₹500",
-                    "Size : 20 Height X 20 Length Inches Extra- ₹1000"
+                    {
+                        "size": "Size : 12 Height X 12 Length Inches",
+                        "amount": "0"
+                    },
+                    {
+                        "size": "Size : 16 Height X 16 Length Inches Extra- ₹500",
+                        "amount": "500"
+                    },
+                    {
+                        "size": "Size : 20 Height X 20 Length Inches Extra- ₹1000",
+                        "amount": "1000"
+                    }
                 ],
                 "selectOccasions": [
                     "Happy Birthday",
@@ -3254,9 +3713,22 @@
                     "Happy RakshaBandhan"
                 ],
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200",
-                    "3": "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ],
+                    "3": [
+                        "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999",
+                        "999"
+                    ],
+                    "4": [
+                        "Add Golden Rose + ₹ 349",
+                        "349"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
@@ -3301,40 +3773,49 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Wall Hanging product-2",
                 "OriginalPrice": "₹2000",
-                "OffPrice": "₹1799",
+                "OffPrice": "1799",
                 "Discount": "201 ₹ OFF",
                 "Tag": "Recent",
-                "cashBack":"₹200",
+                "cashBack": "₹200",
                 "coupleName": "Couple Name",
-                "singleName":"Single Name ",
+                "singleName": "Single Name ",
                 "selectSize": [
-                    "Size : 12 Height X 12 Length Inches",
-                    "Size : 16 Height X 16 Length Inches Extra- ₹600",
-                    "Size : 20 Height X 20 Length Inches Extra- ₹1200"
+                    {
+                        "size": "Size : 12 Height X 12 Length Inches",
+                        "amount": "0"
+                    },
+                    {
+                        "size": "Size : 16 Height X 16 Length Inches Extra- ₹500",
+                        "amount": "500"
+                    },
+                    {
+                        "size": "Size : 20 Height X 20 Length Inches Extra- ₹1000",
+                        "amount": "1000"
+                    }
                 ],
                 "selectOccasions": [
                     "Happy Birthday",
@@ -3355,9 +3836,18 @@
                     "Red"
                 ],
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200",
-                    "3": "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ],
+                    "3": [
+                        "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999",
+                        "999"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
@@ -3402,39 +3892,48 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Wall Hanging product-3",
                 "OriginalPrice": "₹899",
-                "OffPrice": "₹499",
+                "OffPrice": "499",
                 "Discount": "₹400 OFF",
                 "Tag": "Recent",
-                "cashBack":"₹30",
+                "cashBack": "₹30",
                 "showName": "Enter Your Names/Quote/Text",
                 "selectSize": [
-                    "Size : 12 Height X 12 Length Inches",
-                    "Size : 16 Height X 16 Length Inches Extra- ₹600",
-                    "Size : 20 Height X 20 Length Inches Extra- ₹1200"
+                    {
+                        "size": "Size : 12 Height X 12 Length Inches",
+                        "amount": "0"
+                    },
+                    {
+                        "size": "Size : 16 Height X 16 Length Inches Extra- ₹500",
+                        "amount": "500"
+                    },
+                    {
+                        "size": "Size : 20 Height X 20 Length Inches Extra- ₹1000",
+                        "amount": "1000"
+                    }
                 ],
                 "selectOccasions": [
                     "Happy Birthday",
@@ -3483,9 +3982,18 @@
                     "Z"
                 ],
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200",
-                    "3": "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ],
+                    "3": [
+                        "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999",
+                        "999"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
@@ -3530,37 +4038,43 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Wall Hanging product-4",
                 "OriginalPrice": "₹899",
-                "OffPrice": "₹499",
+                "OffPrice": "499",
                 "Discount": "₹400 OFF",
                 "Tag": "Recent",
-                "cashBack":"₹50",
+                "cashBack": "₹50",
                 "selectSize": [
-                    "Size : 12 Height X 12 Length Inches",
-                    "Size : 16 Height X 16 Length Inches Extra- ₹600"
+                    {
+                        "size": "Size : 12 Height X 12 Length Inches",
+                        "amount": "0"
+                    },
+                    {
+                        "size": "Size : 16 Height X 16 Length Inches Extra- ₹600",
+                        "amount": "600"
+                    }
                 ],
                 "selectOccasions": [
                     "Happy Birthday",
@@ -3573,14 +4087,29 @@
                     "Happy RakshaBandhan"
                 ],
                 "selectColor": [
-                    "WARM WHITE (SINGLE COLOR)",
-                    "MULTICOLORED WITH REMOTE EXTRA- ₹200"
+                    {
+                        "text": "WARM WHITE (SINGLE COLOR)",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "MULTICOLOR WITH REMOTE EXTRA- ₹199",
+                        "amount": "199"
+                    }
                 ],
                 "showName": "Enter Your Names/Quote/Text",
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 80",
-                    "2": "Add Greeting Card + ₹ 140",
-                    "3": "Add Bluetooth Speaker (upload your photos using options below) + ₹ 799"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ],
+                    "3": [
+                        "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999",
+                        "999"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
@@ -3633,43 +4162,58 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Spiritual product-1",
                 "OriginalPrice": "₹3499",
-                "OffPrice": "₹3099",
+                "OffPrice": "3099",
                 "Discount": "499 ₹ OFF",
                 "Tag": "Best Selling",
-                "cashBack":"₹300",
+                "cashBack": "₹300",
                 "selectColor": [
-                    "WARM WHITE (SINGLE COLOR)",
-                    "MULTICOLORED WITH REMOTE EXTRA- ₹200"
+                    {
+                        "text": "WARM WHITE (SINGLE COLOR)",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "MULTICOLOR WITH REMOTE EXTRA- ₹199",
+                        "amount": "199"
+                    }
                 ],
                 "showName": "Enter Your Names/Quote/Text",
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 80",
-                    "2": "Add Greeting Card + ₹ 140",
-                    "3": "Add Bluetooth Speaker (upload your photos using options below) + ₹ 799"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ],
+                    "3": [
+                        "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999",
+                        "999"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
                 "uploadPhotoSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
@@ -3713,44 +4257,58 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Spiritual product-2",
                 "OriginalPrice": "₹999",
-                "OffPrice": "₹699",
+                "OffPrice": "699",
                 "Discount": "300 ₹ OFF",
                 "Tag": "Best Selling",
-                "cashBack":"₹60",
+                "cashBack": "₹60",
                 "showName": "Enter Your Names/Quote/Text",
                 "selectColor": [
-                    "WARM WHITE (SINGLE COLOR)",
-                    "MULTICOLORED WITH REMOTE EXTRA- ₹200"
+                    {
+                        "text": "WARM WHITE (SINGLE COLOR)",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "MULTICOLOR WITH REMOTE EXTRA- ₹199",
+                        "amount": "199"
+                    }
                 ],
-               
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 80",
-                    "2": "Add Greeting Card + ₹ 140",
-                    "3": "Add Bluetooth Speaker (upload your photos using options below) + ₹ 799"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ],
+                    "3": [
+                        "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999",
+                        "999"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
@@ -3799,39 +4357,48 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Key Holder product-1",
                 "OriginalPrice": "₹1499",
-                "OffPrice": "₹1099",
+                "OffPrice": "1099",
                 "Discount": "400 ₹ OFF",
                 "Tag": "Recent",
-                "cashBack":"₹80",
+                "cashBack": "₹80",
                 "showName": "Enter Your Name",
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200",
-                    "3": "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ],
+                    "3": [
+                        "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999",
+                        "999"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
@@ -3876,39 +4443,48 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Key Holder product-2",
                 "OriginalPrice": "₹1499",
-                "OffPrice": "₹1099",
+                "OffPrice": "1099",
                 "Discount": "400 ₹ OFF",
                 "Tag": "Recent",
-                "cashBack":"₹100",
+                "cashBack": "₹100",
                 "showName": "Enter Your Name",
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200",
-                    "3": "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ],
+                    "3": [
+                        "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999",
+                        "999"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
@@ -3945,40 +4521,48 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Key Holder product-3",
                 "OriginalPrice": "₹1499",
-                "OffPrice": "₹1199",
+                "OffPrice": "1199",
                 "Discount": "300 ₹ OFF",
                 "Tag": "Recent",
-                "cashBack":"₹50",
+                "cashBack": "₹50",
                 "showName": "Enter Your Name",
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200",
-                    "3": "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999",
-                    "4": "Add Golden Rose + ₹ 349"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ],
+                    "3": [
+                        "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999",
+                        "999"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
@@ -4015,39 +4599,48 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Key Holder product-4",
                 "OriginalPrice": "₹1299",
-                "OffPrice": "₹1099",
+                "OffPrice": "1099",
                 "Discount": "200 ₹ OFF",
                 "Tag": "Recent",
-                "cashBack":"₹200",
+                "cashBack": "₹200",
                 "showName": "Enter Your Name",
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200",
-                    "3": "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ],
+                    "3": [
+                        "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999",
+                        "999"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
@@ -4091,39 +4684,48 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Home Plate product-1",
                 "OriginalPrice": "₹1299",
-                "OffPrice": "₹1099",
+                "OffPrice": "1099",
                 "Discount": "200 ₹ OFF",
                 "Tag": "Recent",
-                "cashBack":"₹60",
+                "cashBack": "₹60",
                 "showName": "Enter Your Name",
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200",
-                    "3": "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ],
+                    "3": [
+                        "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999",
+                        "999"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
@@ -4160,39 +4762,48 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Home Plate product-2",
                 "OriginalPrice": "₹1699",
-                "OffPrice": "₹1299",
+                "OffPrice": "1299",
                 "Discount": "₹400 OFF",
                 "Tag": "Recent",
-                "cashBack":"₹30",
+                "cashBack": "₹30",
                 "showName": "Enter Your Name",
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200",
-                    "3": "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ],
+                    "3": [
+                        "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999",
+                        "999"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
@@ -4229,43 +4840,52 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Home Plate product-3",
                 "OriginalPrice": "₹2299",
-                "OffPrice": "₹2099",
+                "OffPrice": "2099",
                 "Discount": "200 ₹ OFF",
                 "Tag": "Recent",
-                "cashBack":"₹50",
-                "showName":"Enter Your Name/Quote/Text",
-                "singleName":"Single Name ",
-                "coupleName":"Couple Name",
-                "date":"Enter Your Date",
-                "year":"Enter Your Year",
+                "cashBack": "₹50",
+                "showName": "Enter Your Name/Quote/Text",
+                "singleName": "Single Name ",
+                "coupleName": "Couple Name",
+                "date": "Enter Your Date",
+                "year": "Enter Your Year",
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200",
-                    "3": "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ],
+                    "3": [
+                        "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999",
+                        "999"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
@@ -4302,39 +4922,48 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Home Plate product-4",
                 "OriginalPrice": "₹3299",
-                "OffPrice": "₹3099",
+                "OffPrice": "3099",
                 "Discount": "200 ₹ OFF",
                 "Tag": "Recent",
-                "cashBack":"₹50",
+                "cashBack": "₹50",
                 "showName": "Enter Your Name",
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200",
-                    "3": "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ],
+                    "3": [
+                        "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999",
+                        "999"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
@@ -4378,34 +5007,34 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "KeyChain product-1",
                 "OriginalPrice": "₹899",
-                "OffPrice": "₹499",
+                "OffPrice": "499",
                 "Discount": "₹400 OFF",
                 "Tag": "Recent",
-                "cashBack":"₹40",
+                "cashBack": "₹40",
                 "showName": "Enter Your Names/Quote/Text",
                 "selectAlphabet": [
                     "A",
@@ -4436,9 +5065,18 @@
                     "Z"
                 ],
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200",
-                    "3": "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ],
+                    "3": [
+                        "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999",
+                        "999"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
@@ -4483,34 +5121,34 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Mugs product-1",
                 "OriginalPrice": "₹899",
-                "OffPrice": "₹499",
+                "OffPrice": "499",
                 "Discount": "400 ₹ OFF",
                 "Tag": "Recent",
-                "cashBack":"₹50",
+                "cashBack": "₹50",
                 "showName": "Enter Your Names/Quote/Text",
                 "selectAlphabet": [
                     "A",
@@ -4541,9 +5179,18 @@
                     "Z"
                 ],
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200",
-                    "3": "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ],
+                    "3": [
+                        "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999",
+                        "999"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
@@ -4581,40 +5228,49 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Mugs product-2",
                 "OriginalPrice": "₹1599",
-                "OffPrice": "₹1099",
+                "OffPrice": "1099",
                 "Discount": "500 ₹ OFF",
                 "Tag": "Recent",
-                "cashBack":"₹60",
+                "cashBack": "₹60",
                 "showName": "Enter Your Names/Quote/Text",
                 "uploadPhoto": "Upload Pic you want to see on item",
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200",
-                    "3": "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ],
+                    "3": [
+                        "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999",
+                        "999"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
@@ -4652,34 +5308,34 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Mugs product-3",
                 "OriginalPrice": "₹1299",
-                "OffPrice": "₹899",
+                "OffPrice": "899",
                 "Discount": "400 ₹ OFF",
                 "Tag": "Recent",
-                "cashBack":"₹200",
+                "cashBack": "₹200",
                 "showName": "Enter Your Names/Quote/Text",
                 "ChooseAlphabet": [
                     "A",
@@ -4710,9 +5366,18 @@
                     "Z"
                 ],
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200",
-                    "3": "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ],
+                    "3": [
+                        "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999",
+                        "999"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
@@ -4750,39 +5415,48 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Mugs product-4",
                 "OriginalPrice": "₹499",
-                "OffPrice": "₹199",
+                "OffPrice": "199",
                 "Discount": "200 ₹ OFF",
                 "Tag": "Recent",
-                "cashBack":"₹40",
+                "cashBack": "₹40",
                 "showName": "Enter Your Names/Quote/Text",
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200",
-                    "3": "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ],
+                    "3": [
+                        "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999",
+                        "999"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
@@ -4827,34 +5501,34 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Cushions product-1",
                 "OriginalPrice": "₹899",
-                "OffPrice": "₹799",
+                "OffPrice": "799",
                 "Discount": "100 ₹ OFF",
                 "Tag": "Best Selling",
-                "cashBack":"₹100",
+                "cashBack": "₹100",
                 "selectAlphabet": [
                     "A",
                     "B",
@@ -4884,9 +5558,18 @@
                     "Z"
                 ],
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200",
-                    "3": "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ],
+                    "3": [
+                        "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999",
+                        "999"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
@@ -4929,39 +5612,48 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Cushions product-2",
                 "OriginalPrice": "₹1399",
-                "OffPrice": "₹1099",
+                "OffPrice": "1099",
                 "Discount": "200 ₹ OFF",
                 "Tag": "Trending",
-                "cashBack":"₹100",
+                "cashBack": "₹100",
                 "date": "Enter Your Date",
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200",
-                    "3": "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ],
+                    "3": [
+                        "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999",
+                        "999"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
@@ -5004,39 +5696,48 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Cushions product-3",
                 "OriginalPrice": "₹1399",
-                "OffPrice": "₹1099",
+                "OffPrice": "1099",
                 "Discount": "300 ₹ OFF",
                 "Tag": "Your Photo Here",
-                "cashBack":"₹100",
+                "cashBack": "₹100",
                 "date": "Enter Your Date",
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200",
-                    "3": "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ],
+                    "3": [
+                        "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999",
+                        "999"
+                    ]
                 },
                 "Message": "Small Message/Quote/Text",
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
@@ -5079,34 +5780,34 @@
                         "original": "/images/productImg/wallpaper1.jpg",
                         "thumbnail": "/images/productImg/thWallpaper1.jpg",
                         "description": "Image 1"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper2.jpg",
                         "thumbnail": "/images/productImg/thWallpaper2.jpg",
                         "description": "Image 2"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper3.jpg",
                         "thumbnail": "/images/productImg/thWallpaper3.jpg",
                         "description": "Image 3"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper4.jpg",
                         "thumbnail": "/images/productImg/thWallpaper4.jpg",
                         "description": "Image 4"
-                      },
-                      {
+                    },
+                    {
                         "original": "/images/productImg/wallpaper5.jpg",
                         "thumbnail": "/images/productImg/thWallpaper5.jpg",
                         "description": "Image 5"
-                      }
+                    }
                 ],
                 "Name": "Cushions product-4",
-                "OriginalPrice": "Rs.2000",
-                "OffPrice": "Rs1599",
-                "Discount": "Rs401 OFF",
+                "OriginalPrice": "₹2000",
+                "OffPrice": "1599",
+                "Discount": "401 ₹ OFF",
                 "Tag": "Trending",
-                "cashBack":"₹100",
+                "cashBack": "₹100",
                 "selectSize": [],
                 "selectColor": [],
                 "selectAlphabet": [],
@@ -5115,11 +5816,19 @@
                 "Message": "Small Message/Quote/Text",
                 "uploadCardPhoto": "",
                 "cardMessage": "",
-                
                 "AddOns": {
-                    "1": "Gift wrap this item for + ₹ 100",
-                    "2": "Add Greeting Card + ₹ 200",
-                    "3": "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999"
+                    "1": [
+                        "Gift wrap this item for + ₹ 100",
+                        "100"
+                    ],
+                    "2": [
+                        "Add Greeting Card + ₹ 200",
+                        "200"
+                    ],
+                    "3": [
+                        "Add Bluetooth Speaker (upload your photos using options below) + ₹ 999",
+                        "999"
+                    ]
                 },
                 "uploadPhotosSpeaker": "For Bluetooth Speaker,which you want to see on Bluetooth Speaker ",
                 "Song": "",

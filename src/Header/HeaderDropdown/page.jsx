@@ -26,7 +26,7 @@ function VariantsExample({ variants }) {
               <>
                 <Row>
                   {Object.entries(variant["sub-Menu"]).map(([keys, values]) => (
-                    <Col key={keys}> {/* Use 'keys' as the key */}
+                    <Col key={keys} sm> {/* Use 'keys' as the key */}
                       <Dropdown.Item
                         href="#"
                         className={styles.dropdownListItemHeading}
@@ -36,7 +36,7 @@ function VariantsExample({ variants }) {
 
                       <Row className="">
                         {values.map((ele) => (
-                          <Col key={ele}> {/* Use 'ele' as the key */}
+                          <Col key={ele} sm={8}> {/* Use 'ele' as the key */}
                             <Dropdown.Item
                               href="#"
                               className={styles.dropdownListItem}

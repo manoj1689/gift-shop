@@ -22,8 +22,7 @@ export default function RootLayout({
     <html lang="en">
       <Head>
         {/* Add your meta tags, title, and other head elements here */}
-        <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
+       
       </Head>
       <body className={inter.className}>
         <AuthProvider>
