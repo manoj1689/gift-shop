@@ -1,9 +1,13 @@
 'use client'
-import React, { useState } from 'react';
-import { Container, Form, Row, Col, Button } from 'react-bootstrap';
+import React,{useState} from 'react';
+import { Container, Row, Col, Form, Button } from 'react-bootstrap';
+import styles from './page.module.css';
+import { useCart } from '../cartContext/page';
+
 
 const CheckoutPage = () => {
-  const [formData, setFormData] = useState({
+  const { state, dispatch } = useCart();
+  const [formDetail, setFormDetail] = useState({
     firstName: '',
     lastName: '',
     email: '',
@@ -15,21 +19,48 @@ const CheckoutPage = () => {
     expiration: '',
     cvv: '',
   });
+ 
+ 
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
+    setFormDetail({ ...formDetail, [name]: value });
   };
+ 
 
   const handleSubmit = (e) => {
     e.preventDefault();
     // Handle form submission logic (e.g., sending data to the server)
-    console.log(formData);
+    console.log(formDetail);
   };
 
   return (
-    <Container>
+    <Container className={styles.checkoutContainer}>
+      
       <h2>Checkout</h2>
+      {state.cartItems.map((item) => (
+                <div key={item.productId}>
+                  <Row className={styles.ProductDetail }>
+                    <Col sm>
+                      {/* Display product images here */}
+                      Image
+                    </Col>
+                    <Col sm>
+                      <Row>{item.name}</Row>
+                      <Row>Price: {item.price}</Row>
+                    </Col>
+                   
+                    <Col sm>
+                    <Row>Quantity</Row>
+                    <Row>{item.quantity}</Row>
+                    </Col>
+                   <Col>
+                   <Row>Total Amount: ₹ {item.price * item.quantity}</Row>
+                   </Col>
+                  </Row>
+                </div>
+              ))}
+              
       <Form onSubmit={handleSubmit}>
         <Row>
           <Col>
@@ -38,7 +69,7 @@ const CheckoutPage = () => {
               <Form.Control
                 type="text"
                 name="firstName"
-                value={formData.firstName}
+                value={formDetail.firstName}
                 onChange={handleChange}
                 required
               />
@@ -50,7 +81,7 @@ const CheckoutPage = () => {
               <Form.Control
                 type="text"
                 name="lastName"
-                value={formData.lastName}
+                value={formDetail.lastName}
                 onChange={handleChange}
                 required
               />
@@ -62,7 +93,7 @@ const CheckoutPage = () => {
           <Form.Control
             type="email"
             name="email"
-            value={formData.email}
+            value={formDetail.email}
             onChange={handleChange}
             required
           />
@@ -72,7 +103,7 @@ const CheckoutPage = () => {
           <Form.Control
             type="text"
             name="address"
-            value={formData.address}
+            value={formDetail.address}
             onChange={handleChange}
             required
           />
@@ -84,7 +115,7 @@ const CheckoutPage = () => {
               <Form.Control
                 type="text"
                 name="city"
-                value={formData.city}
+                value={formDetail.city}
                 onChange={handleChange}
                 required
               />
@@ -96,7 +127,7 @@ const CheckoutPage = () => {
               <Form.Control
                 type="text"
                 name="state"
-                value={formData.state}
+                value={formDetail.state}
                 onChange={handleChange}
                 required
               />
@@ -108,7 +139,7 @@ const CheckoutPage = () => {
               <Form.Control
                 type="text"
                 name="zip"
-                value={formData.zip}
+                value={formDetail.zip}
                 onChange={handleChange}
                 required
               />
@@ -120,7 +151,7 @@ const CheckoutPage = () => {
           <Form.Control
             type="text"
             name="cardNumber"
-            value={formData.cardNumber}
+            value={formDetail.cardNumber}
             onChange={handleChange}
             required
           />
@@ -132,7 +163,7 @@ const CheckoutPage = () => {
               <Form.Control
                 type="text"
                 name="expiration"
-                value={formData.expiration}
+                value={formDetail.expiration}
                 onChange={handleChange}
                 placeholder="MM/YYYY"
                 required
@@ -145,14 +176,17 @@ const CheckoutPage = () => {
               <Form.Control
                 type="text"
                 name="cvv"
-                value={formData.cvv}
+                value={formDetail.cvv}
                 onChange={handleChange}
                 required
               />
             </Form.Group>
           </Col>
         </Row>
+        <div className={styles.checkoutButtonContainer}>
         <Button type="submit">Place Order</Button>
+        </div>
+        
       </Form>
     </Container>
   );

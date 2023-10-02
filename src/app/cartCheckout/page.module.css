@@ -1,0 +1,16 @@
+/* Checkout.module.css */
+.checkoutContainer {
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.checkoutButtonContainer {
+  text-align: right;
+  margin-top: 20px;
+}
+
+/* Add more custom styles as needed */

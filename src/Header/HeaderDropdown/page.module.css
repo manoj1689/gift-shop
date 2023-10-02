@@ -37,7 +37,7 @@
   padding: 50px;
 }
 .dropdownList{
- width: 800px;
+ width: 820px;
  height: 40vh;
  scroll-behavior: smooth;
  overflow-y:scroll;
@@ -53,10 +53,13 @@
  
 }
 
-
+.itemList{
+  display: grid;
+  padding-bottom: 20px;
+}
 
 .dropdownListItem{
-
+  width: 100%;
   background-color:  #ec5459;
   color: #fff;
  

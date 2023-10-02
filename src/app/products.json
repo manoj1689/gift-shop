@@ -2539,12 +2539,31 @@
                     }
                 ],
                 "selectColor": [
-                    "Ice Blue",
-                    "White",
-                    "Warm White",
-                    "Pink",
-                    "Blue",
-                    "Red"
+                    {
+                        "text": "Ice Blue",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "White",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "Warm White",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "Pink",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "Blue",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "Red",
+                        "amount": "0"
+                    }
+                  
                 ],
                 "AddOns": {
                     "1": [
@@ -2635,12 +2654,30 @@
                     }
                 ],
                 "selectColor": [
-                    "Ice Blue",
-                    "White",
-                    "Warm White",
-                    "Pink",
-                    "Blue",
-                    "Red"
+                    {
+                        "text": "Ice Blue",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "White",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "Warm White",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "Pink",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "Blue",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "Red",
+                        "amount": "0"
+                    }
                 ],
                 "AddOns": {
                     "1": [
@@ -2728,22 +2765,33 @@
                 "Tag": "Recent",
                 "cashBack": "₹100",
                 "showName": "Enter Your Names/Quote/Text",
-                "selectColor1": [
-                    "Ice Blue",
-                    "White",
-                    "Warm White",
-                    "Pink",
-                    "Blue",
-                    "Red"
+                "selectColor": [
+                    {
+                        "text": "Ice Blue",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "White",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "Warm White",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "Pink",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "Blue",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "Red",
+                        "amount": "0"
+                    }
                 ],
-                "selectColor2": [
-                    "Ice Blue",
-                    "White",
-                    "Warm White",
-                    "Pink",
-                    "Blue",
-                    "Red"
-                ],
+             
                 "AddOns": {
                     "1": [
                         "Gift wrap this item for + ₹ 100",
@@ -3828,12 +3876,30 @@
                     "Happy RakshaBandhan"
                 ],
                 "selectColor": [
-                    "Ice Blue",
-                    "White",
-                    "Warm White",
-                    "Pink",
-                    "Blue",
-                    "Red"
+                    {
+                        "text": "Ice Blue",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "White",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "Warm White",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "Pink",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "Blue",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "Red",
+                        "amount": "0"
+                    }
                 ],
                 "AddOns": {
                     "1": [
@@ -3946,12 +4012,30 @@
                     "Happy RakshaBandhan"
                 ],
                 "selectColor": [
-                    "Ice Blue",
-                    "White",
-                    "Warm White",
-                    "Pink",
-                    "Blue",
-                    "Red"
+                    {
+                        "text": "Ice Blue",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "White",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "Warm White",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "Pink",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "Blue",
+                        "amount": "0"
+                    },
+                    {
+                        "text": "Red",
+                        "amount": "0"
+                    }
                 ],
                 "selectAlphabet": [
                     "A",

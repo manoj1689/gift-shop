@@ -27,7 +27,7 @@ function Cart() {
     window.location.reload();
   };
   const handleCheckout = () => {
-    router.push('/cartProducts/cartCheckout'); // Navigate to the checkout page
+    router.push('/cartCheckout'); // Navigate to the checkout page
   };
 
   return (

@@ -10,8 +10,10 @@ import { useEffect, useState } from "react";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
 import { useCart } from "@/app/cartContext/page";
+import { useRouter } from 'next/navigation'; // Import the correct router module
 
 export default function Page({ params }) {
+  const router = useRouter();
   const [number, setNumber] = useState(1);
   const [openDiv, setOpenDiv] = useState({});
   const [showName, setShowName] = useState("");
@@ -30,10 +32,11 @@ export default function Page({ params }) {
   const [Message, setMessage] = useState("");
   const [cardMessage, setCardMessage] = useState("");
   const [song, setSong] = useState("");
-  const [showModal, setShowModal] = useState(false);
+ // const [showModal, setShowModal] = useState(false);
   const [selectedSizeAmount, setSelectedSizeAmount] = useState("0");
   const [selectedColorAmount, setSelectedColorAmount] = useState("0");
   const [selectedAddOnsAmount, setSelectedAddOnsAmount] = useState(0);
+ 
   const [isFormComplete, setIsFormComplete] = useState(false);
 
   const [formData, setFormData] = useState({});
@@ -89,6 +92,8 @@ export default function Page({ params }) {
 
   const handleFormSubmit = async (event) => {
     event.preventDefault();
+    router.push('/cartCheckout');
+    addToCart();
     const formData = new FormData();
 
     // Append form fields to the FormData object
@@ -105,13 +110,15 @@ export default function Page({ params }) {
     formData.append("cardMessage", cardMessage);
     formData.append("song", song);
     formData.append("quantity", number);
-
+  
     if (uploadPhoto) {
       uploadPhoto.forEach((file, index) => {
         formData.append(`uploadPhoto_${index}`, file);
       });
     }
-
+   
+   
+    
     // Append more uploaded files as needed
     if (uploadCardPhoto) {
       uploadCardPhoto.forEach((file, index) => {
@@ -135,13 +142,16 @@ export default function Page({ params }) {
       const response = await fetch("https://httpbin.org/post", {
         method: "POST",
         body: formData,
+       
       });
+     
 
       if (response.ok) {
         const responseData = await response.json();
         console.log("Form data saved successfully!", responseData);
 
-        resetForm();
+        resetForm(); 
+        
       } else {
         console.error("Failed to save form data.");
       }
@@ -183,10 +193,10 @@ export default function Page({ params }) {
     const newOffPrice = (
       parseFloat(selectedProduct.OriginalOffPrice) + totalAddOnsPrice
     ).toFixed(2);
-
+     
     setFormData({
       ...formData,
-      OffPrice: newOffPrice,
+    
     });
   };
 
@@ -271,6 +281,9 @@ export default function Page({ params }) {
         break;
     }
     const requiredFields = [
+      selectedColor,
+      selectedSize,
+      cardMessage,
       showName,
       singleName,
       coupleName,
@@ -293,10 +306,13 @@ export default function Page({ params }) {
   useEffect(() => {
     setFormData({
       ...formData,
-      number, // Update the number field in formData
+      number// Update the number field in formData
+      
     });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [number]);
+
+  console.log(formData)
   //console.log(AddOns)
   // add to cart
   const getCartFromLocalStorage = () => {
@@ -325,6 +341,7 @@ export default function Page({ params }) {
       parseFloat(selectedSizeAmount) +
       parseFloat(selectedColorAmount) +
       parseFloat(selectedAddOnsAmount);
+  
     const cartItem = {
       productId: selectedProduct.ProductId,
       name: selectedProduct.Name,
@@ -342,7 +359,7 @@ export default function Page({ params }) {
 
     // Save the updated cart data to localStorage
     saveCartToLocalStorage(updatedCartData);
-    setShowModal(true);
+    //setShowModal(true);
     resetForm();
   };
 
@@ -367,6 +384,7 @@ export default function Page({ params }) {
             )}
           </Col>
           <Col sm={6}>
+         
             <h1 className={styles.itemName}>{selectedProduct.Name}</h1>
 
             <div className={styles.priceDetails}>
@@ -385,9 +403,11 @@ export default function Page({ params }) {
               </div>
               <div className={styles.discount}>{selectedProduct.Discount}</div>
             </div>
-
-            <div>
-              <Form onSubmit={handleFormSubmit}>
+                  <div>
+                  <Form onSubmit={handleFormSubmit}>
+                  
+           
+             
                 {" "}
                 <div className={styles.inputDetails}>
                   <div>
@@ -738,6 +758,7 @@ export default function Page({ params }) {
                   <Col md={6}>
                     <Button
                       type="submit"
+                  
                       variant="danger"
                       className={styles.buyButton}
                     >
@@ -749,9 +770,9 @@ export default function Page({ params }) {
                   </Col>
                 </Row>
               </Form>
-            </div>
+              </div>
             {/* Modal for showing the pop-up message */}
-            <Modal show={showModal} onHide={() => setShowModal(false)}>
+            {/* <Modal show={showModal} onHide={() => setShowModal(false)}>
               <Modal.Header closeButton>
                 <Modal.Title>Item Added</Modal.Title>
               </Modal.Header>
@@ -761,7 +782,7 @@ export default function Page({ params }) {
                   Close
                 </Button>
               </Modal.Footer>
-            </Modal>
+            </Modal> */}
 
             <div>
               <div className={styles.selectHeading}>Description</div>
