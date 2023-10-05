@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 "use client";
 //This page show product details
 import productsData from "../../../products.json";
@@ -9,10 +10,27 @@ import styles from "./page.module.css";
 import { useEffect, useState } from "react";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import { useCart } from "@/app/cartContext/page";
 import { useRouter } from 'next/navigation'; // Import the correct router module
-
+import { useSession } from 'next-auth/react';
+import Link from "next/link";
 export default function Page({ params }) {
+  const { data: session } = useSession();
+  if (!session) {
+    // Redirect to the login page if the user is not authenticated
+    // You can use the router to specify the redirect path
+    return (
+      <div className={styles.loginAlertPage}>
+      <Container className={styles.loginMessage}>
+   <div className={styles.loginMessageText}>Please log in to access this page.</div>
+   <Link href="/api/auth/signin" className={styles.loginLink}>
+     SignIn
+   </Link>
+ </Container>
+ </div>
+    );
+  }
   const router = useRouter();
   const [number, setNumber] = useState(1);
   const [openDiv, setOpenDiv] = useState({});
@@ -752,7 +770,10 @@ export default function Page({ params }) {
                       className={styles.addCart}
                       disabled={!isFormComplete} // Disable the button if the form is not complete
                     >
-                      ADD TO CART
+                      <span>
+                        <AddShoppingCartIcon />
+                      </span>
+                      <span> ADD TO CART </span>
                     </Button>
                   </Col>
                   <Col md={6}>
@@ -762,10 +783,8 @@ export default function Page({ params }) {
                       variant="danger"
                       className={styles.buyButton}
                     >
-                      <span>
-                        <AddShoppingCartIcon />
-                      </span>
-                      <span>BUY NOW</span>
+                      <span> <ShoppingCartIcon/> </span>
+                      <span> BUY NOW</span>
                     </Button>
                   </Col>
                 </Row>

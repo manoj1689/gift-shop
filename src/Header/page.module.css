@@ -30,7 +30,7 @@
   display: grid;
   padding-left: 20px;
   padding-right: 20px;
-  
+  cursor: pointer;
   font-size: 14px;
   color: #fff;
  
@@ -92,6 +92,12 @@
   color: #e7dede;
 }
 
+.userInfo{
+  text-align: center;
+  padding-top: 2px;
+  font-size: 13px;
+  font-weight: 500
+}
 
 /* Custom styles for ReactSearchAutocomplete results */
 .searchBarDesktop {

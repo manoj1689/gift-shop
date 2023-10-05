@@ -1,3 +1,34 @@
+/* login-message.css */
+.loginAlertPage{
+  height: 70vh;
+}
+.loginMessage {
+  background-color:#ef7a7e;
+  padding: 100px 0 100px 0 ;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 18px;
+}
+.loginMessageText{
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.loginLink {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #007bff; /* Link color */
+}
+
+.loginLink:hover {
+  text-decoration: underline;
+  color: #0056b3; /* Hovered link color */
+}
+
+
 .cartPage{
   padding: 100px 10px 100px 10px;
   min-height: 60vh;
@@ -6,9 +37,18 @@
 
 .cartImage{
   margin: 50px 0 50px 0;
-  
+    
 }
-
+.items{
+  padding: 20px;
+  border-bottom: 1px solid #ef7a7e;
+}
+.itemImage{
+  border-right: 1px solid #ef7a7e;
+}
+.itemInfo{
+  margin: 10px;
+}
 .itemDetails{
   padding: 50px 0 50px 0;
 }
@@ -20,9 +60,8 @@
 .cartContainer{
   text-align: center;
   margin: 200px 0 200 0;
-  background-color: antiquewhite;
-  border-radius: 5px;
-  box-shadow: 8px 8px 2px 1px rgba(209, 209, 215, 0.2);
+  border: 1px solid #ef7a7e;
+
   
 
  
@@ -43,4 +82,32 @@
 }
 .Now{
   padding-left:10px ;
+}
+
+.detailText{
+  padding: 5px;
+  font-weight: 500;
+}
+
+.detailText1{
+  padding: 5px;
+  font-weight: 300;
+}
+
+.checkoutButton{
+  border-radius: 0%;
+  margin-top:50px;
+  padding: 10px 50px 10px 50px;
+}
+
+@media screen and (max-width: 1200px) {
+ .items{
+border-right: 0px;
+ border-bottom: 1px solid #ef7a7e;
+}
+ .itemImage{
+  border-right: 0px;
+ 
+}
+
 }

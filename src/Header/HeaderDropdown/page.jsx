@@ -31,7 +31,7 @@ function VariantsExample({ variants }) {
                         href="#"
                         className={styles.dropdownListItemHeading}
                       >
-                        {keys}
+                        {keys} 
                       </Dropdown.Item>
                     
                       <Row className={styles.itemList} >

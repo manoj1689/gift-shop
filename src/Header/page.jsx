@@ -15,14 +15,19 @@ import { ReactSearchAutocomplete } from "react-search-autocomplete";
 import productData from "@/app/products.json";
 import { useRouter } from "next/navigation";
 import SearchIcon from "@mui/icons-material/Search";
-
+import { useSession } from 'next-auth/react';
+import { signIn,signOut } from "next-auth/react";
+import LogoutIcon from '@mui/icons-material/Logout';
 const Header = () => {
   const [showBadge, setShowBadge] = useState(false);
   const router = useRouter();
   const { state } = useCart();
   const [searchText, setSearchText] = useState("");
   const searchInputRef = useRef(null);
-
+  const { data: session } = useSession();
+  async function GoogleSignOut(){
+    signOut({redirect: "/", callbackUrl: "http://localhost:3000"})
+  }
   useEffect(() => {
     console.log("Component mounted");
 
@@ -127,8 +132,10 @@ const Header = () => {
             <div className={styles.topIcons}>
               <div className={styles.topIconBox}>
                 <div className={styles.BadgeContainer}>
+                <Link href={"/cartProducts"}>
                 <div className={styles.Cart}>
                 <div className={styles.BadgeValue}>
+                
                     {showBadge && (
                       <Badge bg="warning" text="light" pill>
                         {state.cartItems.length}
@@ -143,38 +150,64 @@ const Header = () => {
                   
 
                     <div className={styles.iconText}>
-                  <Link href={"/cartProducts"}>Cart</Link>
+                  Cart
                 </div>
-                
+                </Link>
                    
                   
                 </div>
                 
                
               </div>
-              <div className={styles.topIconBox}>
-                <div>
-                  <PersonIcon className={styles.Icon} />
-                </div>
-                <div className={styles.iconText}>
-                  <Link href="/api/auth/signin">Sign In</Link>
-                </div>
-              </div>
-              <div className={styles.topIconBox}>
-                <div>
-                  <PersonIcon className={styles.signUpIcon} />
-                </div>
-                <div className={styles.iconText}>
-                  <Link href="/Pages/register">Sign Up</Link>
-                </div>
-              </div>
+              {!session ? (
+                <>
+                  <div className={styles.topIconBox}>
+                    <Link href="/api/auth/signin">
+                      <div>
+                        <PersonIcon className={styles.Icon} />
+                      </div>
+                      <div className={styles.iconText}>Sign In</div>
+                    </Link>
+                  </div>
+                  <div className={styles.topIconBox}>
+                    <Link href="/Pages/register">
+                      <div>
+                        <PersonIcon className={styles.signUpIcon} />
+                      </div>
+                      <div className={styles.iconText}>Sign Up</div>
+                    </Link>
+                  </div>
+                </>
+              ) : (
+                <>
+                  <div className={styles.topIconBox}>
+                    <div className={styles.userInfo}>
+                    <div>
+                        <PersonIcon className={styles.signUpIcon} />
+                      </div>
+                    <div >{session.user.name}</div>
+                  </div>
+                    </div>
+                   
+                  <div  onClick={() => GoogleSignOut()} className={styles.topIconBox}>
+                    <div >
+                      <LogoutIcon className={styles.Icon} />
+                    </div>
+                    <div className={styles.iconText}>Sign Out</div>
+                  </div>
+                </>
+              )}
               <div>
+              <Link href="tel:+1234567890">
                 <div className={styles.contact}>
+                
                   <CallIcon className={styles.callIcon} />
                   <div className={styles.contactDetails}>
                     +91xxx-xxx-xxxx|10AM To 7PM
                   </div>
+                 
                 </div>
+                </Link>
               </div>
             </div>
           </Col>

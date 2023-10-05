@@ -2,6 +2,8 @@
 import styles from "./page.module.css";
 import HomeHead from "@/app/Home/page.jsx";
 import Categories from "@/app/Categories/page"
+import BestSelling from "@/app/bestSelling/Page"
+import Recent from "@/app/Recent/page"
 import Link from "next/link";
 import { useState } from "react";
 import { useSession } from "next-auth/react";
@@ -32,7 +34,7 @@ function Guest(){
     <div>
       <h1> Guest Home Page</h1>
      
-      <Link href="/Pages/login"></Link>
+      <Link href="/api/auth/signin">SignIn</Link>
     </div>
   )
 }
@@ -43,11 +45,14 @@ function User({session}){
   }
   return (
     <div>
-      <h1> User Home Page</h1>
-      <h3>{session.user.name}</h3>
+      {/* <h1> User Home Page</h1>
+      <h3>{session.user.name}</h3> */}
+     
+      <BestSelling/>
       <div><Categories/> </div>
-      <Link href="/profile">Profile Page</Link>
-      <Button variant="light" type="button" onClick={GoogleSignOut}>SignOut </Button>
+      <Recent/>
+{/*     
+      <Button variant="light" type="button" onClick={GoogleSignOut}>SignOut </Button> */}
     </div>
   )
 }

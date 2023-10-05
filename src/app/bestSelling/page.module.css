@@ -1,0 +1,75 @@
+.sliderWrapper {
+  
+  height: 500px; /* Adjust the height as needed */
+}
+
+.bestSellingText{
+margin-top: 50px;
+margin-left: 20px;
+font-size: 25px;
+font-weight: 600;
+}
+
+.card {
+  position: relative;
+  text-align: left;
+  margin: 20px;
+  width: auto
+}
+
+.priceDetails{
+  display: flex;
+}
+
+.offPrice{
+  padding: 0 5px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    
+
+}
+
+.originalPrice{
+  opacity: .6;
+  padding: 0 5px;
+    display: inline-block;
+    font-size: 18px;
+  
+  font-weight: 600;
+}
+
+
+.discount{
+  padding: 0 5px;
+  display: inline-block;
+  font-size: 18px;
+  color: #009850;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+
+.cashBackDiv{
+  display: flex;
+  font-size: 14px;
+  border: 1px dotted;
+  color: #474799;
+  margin-top: 20px;
+ 
+  
+}
+.cashBackText{
+  opacity: .8;
+  color: #474799;
+  padding: 2px 10px;
+  
+}
+.cashBackAmount{
+  
+  font-weight: 500;
+  color: #db8e59;
+  font-size: 14px;
+  padding: 2px 0px;
+}
+

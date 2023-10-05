@@ -1,16 +1,49 @@
 /* Checkout.module.css */
-.checkoutContainer {
-  padding: 20px;
-  background-color: #f7f7f7;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  margin-top: 100px;
-  margin-bottom: 50px;
+.checkoutPage{
+margin: 50px 0 50px 0;
 }
 
+.items{
+  padding: 20px;
+border-bottom:  1px solid #cececc;
+}
+
+.checkoutContainer {
+  padding: 20px;
+  border: 1px solid #cececc;
+  
+}
+.productDetails{
+  padding: 10px;
+}
+.checkoutDetails{
+  margin: 50px 0 50px 0;
+ 
+ 
+
+}
 .checkoutButtonContainer {
   text-align: right;
   margin-top: 20px;
+}
+
+.Amount{
+  font-weight: 500;
+}
+.totalAmount{
+padding-right: 50px;
+font-weight: 500;
+align-items: center;
+justify-content: end;
+
+}
+.deleteButton{
+  width: 30%;
+}
+
+.formLabel{
+  padding-top: 20px;
+  font-weight: 500;
 }
 
 /* Add more custom styles as needed */

@@ -8,6 +8,7 @@ import Pagination from 'react-bootstrap/Pagination';
 import styles from "./page.module.css";
 
 const ProductsPage = ({ params }) => {
+  
   // Define the number of items to display per page
   const itemsPerPage = 5;
 
@@ -59,7 +60,7 @@ const ProductsPage = ({ params }) => {
                 </p>
               <div className={styles.priceDetails}>
                 <div className={styles.offPrice}>
-              {product.OffPrice}
+                ₹{product.OffPrice}
                 </div>
                 <div className={styles.originalPrice}>
                   <del>
